@@ -7,7 +7,7 @@ local C,UI=D.Config,D.UI
 for _,key in ipairs({'spam','rares'})do
  if not C.TAB[key]then C.TABS[#C.TABS+1]={key=key,label=key,build=function()return {}end,pad=UI.SIZE.pad,gap=UI.SIZE.gap};C.TAB[key]=#C.TABS end
 end
-local S={version='1.7'};HP.Suite=S
+local S={version=D.version~='dev'and D.version or '1.8'};HP.Suite=S
 D.TITLE='WTF! DUDE SUITE'
 local function native(key)
  if key=='marking' then return HP.GroupMarks:DB() end
@@ -141,7 +141,7 @@ attach(C.TAB.arrow,'navigation','Arrow & maps',function(rows,canvas,width)
 end)
 attach(C.TAB.appearance,'suite','Suite options',function(rows,canvas,width)
  rows[#rows+1]=pageRow(canvas,width,'Keybindings',bindingPage)
- rows[#rows+1]=UI.InfoRow(canvas,'WTF! DUDE SUITE · Version 1.7\nDrag the title bar to move Settings. Saved progress and module preferences are preserved.',width)
+ rows[#rows+1]=UI.InfoRow(canvas,'WTF! DUDE SUITE · Version '..S.version..'\nDrag the title bar to move Settings. Saved progress and module preferences are preserved.',width)
 end)
 attach(C.TAB.gathering,'gathering','Gathering',function(rows,canvas,width)
  -- Reuse the original gathering controls, without profession/reputation/chat controls.

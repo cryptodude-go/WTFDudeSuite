@@ -1320,6 +1320,9 @@ function Cfg:Create()
     UI.Divider(f, -(HEIGHT - FOOTER_HEIGHT - 1))
     f.help = G():NewHintBar(f, WIDTH - 24, FOOTER_HEIGHT, function(key) Cfg:OnKey(key) end)
     f.help:SetPoint("BOTTOMLEFT", f, "BOTTOMLEFT", 12, 0)
+    f.version = UI.Text(f, "semibold", 11, C.secondary)
+    f.version:SetJustifyH("RIGHT")
+    f.version:SetPoint("RIGHT", f, "BOTTOMRIGHT", -12, FOOTER_HEIGHT / 2)
 
     f:SetScript("OnShow", function() Cfg:OnShow() end)
     f:SetScript("OnHide", function() Cfg:OnHide() end)
@@ -1646,6 +1649,9 @@ end
 function Cfg:UpdateHelp()
     local f = self.frame
     if not f then return end
+    local version = Ding.Updates and Ding.Updates:Version() or Ding.version
+    f.version:SetText("v" .. tostring(version or "dev"):gsub("^v", ""))
+    f.help:SetRoom(WIDTH - 36 - math.max(72, f.version:GetStringWidth()))
     local row = self.focus
     local pad = G():Active()
     -- While a list is open, a button waited for or a conflict settled, B and LB / RB do

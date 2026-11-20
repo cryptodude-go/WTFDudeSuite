@@ -1,10 +1,10 @@
 # WTF! DUDE SUITE
 
-**Version 1.7 · World of Warcraft: Forever · Interface 16001**
+**Version 1.8 · World of Warcraft: Forever · Interface 16001**
 
 A modular companion for leveling, questing, professions, gathering, navigation and group play. One addon folder contains the complete suite, with an overall switch and separate module switches in Settings.
 
-This is a cumulative summary of features added from the first 0.x releases through version 1.7. It describes the current feature set and omits repair notes.
+This is a cumulative summary of features added from the first 0.x releases through version 1.8. It describes the current feature set and omits repair notes.
 
 ## Leveling and quest guides
 
@@ -133,6 +133,9 @@ Kill sounds require a readable player-kill event from the game.
 - Selectable skins, opacity, scale, combat display preferences and saved window positions.
 - Keyboard, mouse, keybinding and supported controller navigation.
 - Localized interface/guide resources with English fallback.
+- Installed version displayed on the right side of the Settings footer.
+- Optional new-version notifications from other suite users in the group or guild.
+- A version-information popup with a copyable GitHub link and one notification per newer version.
 - On-demand memory/CPU snapshots through Settings or `/wtf performance`.
 - Throttled map updates, bounded caches and suspended inactive drivers.
 
@@ -195,6 +198,18 @@ Use `/wtf way` when another installed addon owns the shorter `/way` command.
 Open the installed `Interface/AddOns/WTFDudeSuite` directory as the folder workspace in Visual Studio. Use that folder as the repository root so `WTFDudeSuite.toc`, `README.md` and `Modules` are directly at the root.
 
 Editing Lua files in this folder edits the installed addon. Use `/reload` to load saved code changes. Restart WoW after adding files or changing the file layout. The included `.gitignore` excludes Visual Studio local metadata. GitHub releases should package the repository inside one top-level `WTFDudeSuite` directory.
+
+## Version notifications and GitHub
+
+Open **Suite options → New version notifications** to control automatic notices. The version appears on the right side of the Settings footer. `/wtf updates` opens the version/GitHub window.
+
+The in-game checker exchanges version numbers through WoW addon messages in your group or guild. When another suite user reports a higher version, the popup appears once for that version. Notifications wait until combat ends. Player-reported versions are identified as reports.
+
+WoW addons cannot fetch GitHub pages directly. The optional `Tools/Check-GitHub.ps1` checks this public repository over HTTPS. It prefers the latest stable GitHub Release and falls back to the version in `main/WTFDudeSuite.toc` when needed. It writes validated version data to `Core/ReleaseInfo.lua`, which the addon reads at the next login or reload.
+
+Run `Tools/Launch-WoW.ps1` from the installed addon folder to check GitHub before launching WoW. You can also run the checker on its own and then use `/reload`. These scripts check version metadata and prepare the notice. Install a downloaded release to update the addon files.
+
+To publish a new version, update `## Version:` in `WTFDudeSuite.toc`, commit and push your changes, and preferably publish a GitHub Release with a matching numeric tag such as `v1.8` or `v1.8.1`. Package the release with the single `WTFDudeSuite` top-level folder. Keep the default empty `Core/ReleaseInfo.lua` in published source.
 
 ## License and credits
 

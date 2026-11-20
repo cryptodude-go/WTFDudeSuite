@@ -1,0 +1,34 @@
+{
+  "fishPositions": 277,
+  "fishZones": 17,
+  "nativePositions": 85,
+  "excludedChangedMaps": [
+    1412,
+    1423,
+    1433,
+    1453
+  ],
+  "source": "https://github.com/E1ila/GatherMate2_Data/blob/6318709d206554f0b131568a2fecfd2539ef6fa0/FishData.lua",
+  "sourceHash": "d22d68e7333094f985065ea9717844a71d7d1e691902a0836d311029137ebc57",
+  "originalResourcePositions": 16292,
+  "maps": {
+    "1413": 37,
+    "1416": 1,
+    "1417": 1,
+    "1421": 2,
+    "1424": 38,
+    "1432": 3,
+    "1434": 59,
+    "1436": 2,
+    "1437": 15,
+    "1439": 5,
+    "1440": 25,
+    "1442": 9,
+    "1443": 29,
+    "1444": 29,
+    "1445": 3,
+    "1446": 12,
+    "1447": 7
+  },
+  "note": "Legacy points withheld when Forever positions exist for the same map/resource. Changed Classic map frames excluded. Gatherer-Elysium reviewed but not imported because it describes a different server."
+}

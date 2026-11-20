@@ -1,0 +1,123 @@
+local _WTF=assert(_G.WTFDudeSuiteRuntime)
+local function _load(...)
+-- Adapted for DudeWheresMyDing 0.16.0; original guide by moust4ki / Ding v1.8.1, GPL-3.0.
+-- Runtime registration is private; original guide content and attribution are retained.
+local _, HP = ...
+local Ding = HP.DingGuideAdapter
+-- Drafted by tools/write_leveling.lua from tools/routes/leveling/alliance.lua and the QuestieDB
+-- Forever export, then checked with tools/check_guides.lua. Edit the route, not this file:
+-- it is written again on each run. Quest ids only, names and places come from QuestieDB.
+-- French text: Ding/Locales/Guides/frFR/Leveling/Alliance/16.lua.
+-- Simulated (warrior): Human 33 (100%) -> 35 (5%) in 3 h 40, 31 quests turned in; Dwarf 34 (12%) -> 35 (16%) in 3 h 40, 31 quests turned in; NightElf 34 (17%) -> 35 (21%) in 3 h 40, 31 quests turned in; Gnome 34 (21%) -> 35 (24%) in 3 h 40, 31 quests turned in; Skyborne 34 (20%) -> 35 (23%) in 3 h 40, 31 quests turned in.
+Ding.RegisterGuide({
+    id       = "leveling-a16-dustwallow-marsh-and-thousand-needles",
+    title    = "Dustwallow and Thousand Needles (33-34)",
+    faction  = "Alliance",
+    minLevel = 33, maxLevel = 34,
+    next     = "leveling-a17-stranglethorn-vale",
+    leftOut  = {
+        [1121] = { kind = "exclusive" },
+        [1133] = { kind = "away" },
+        [2770] = { kind = "away" },
+        [3842] = { kind = "prereq" },
+        [3843] = { kind = "prereq" },
+    },
+    steps    = {
+        { go = { 1445, 67.52, 51.25 }, fly = true, talk = 4321, text = "Flight master at Theramore", -- level 33
+          note = "Dustwallow Marsh: Theramore Isle, off the east coast." },
+        { talk = 4897, buy = { { 3713, 3, 4897 } }, -- level 33
+          note = "The NPC is indoors." },
+        { accept = 1135, -- level 33
+          note = "The NPC is indoors." },
+        { sethearth = "Theramore Isle", talk = 6272, -- level 33
+          note = "The NPC is indoors." },
+        { accept = 1282 }, -- level 33
+        { turnin = 1302, floor = "up", -- level 33
+          note = "The NPC is indoors, one floor up." },
+        { turnin = 1264, accept = 1265, floor = "up", -- level 34
+          note = "The NPC is indoors, one floor up." },
+        { turnin = 1282, floor = "up", -- level 34
+          note = "The NPC is indoors, one floor up." },
+        { complete = 1265, -- level 34
+          note = "The NPC is indoors." },
+        { turnin = 1265, accept = 1266, -- level 34
+          note = "The NPC is indoors. This quest is buggy and may not show up. If it is not around, move on without it." },
+        { accept = 1218, when = { item = 3713 } }, -- level 34
+        { turnin = 1218, when = { item = 3713 } }, -- level 34
+        { accept = 1219 }, -- level 34
+        { turnin = 1266 }, -- level 34
+        { accept = 1324, noauto = 1324, -- level 34
+          note = "Expect several foes at once. Make Private Hendel your main target." },
+        { complete = 1324, -- level 34
+          note = "Wait for the talking to finish" },
+        { turnin = 1324 }, -- level 34
+        { accept = 1267 }, -- level 34
+        { turnin = 1267 }, -- level 34
+        { accept = 1177, -- level 34
+          note = "Steer clear of Brackenwall Village. Watch out: the foes here are above your level. Keep to the road the whole way." },
+        { accept = 1284 }, -- level 34
+        { accept = 1252, -- level 34
+          note = "The quest starts from a small piece of metal." },
+        { accept = 1253 }, -- level 34
+        { go = { 1441, 32.18, 22.29 }, text = "Take the lift down", why = { action = "accept", kind = "detour", quest = 1100, seconds = 60, xp = 1400 } }, -- level 34
+        { collect = { { 5791, 1 } }, -- level 34
+          note = "Look for a little brown tome. The item is held by a dwarf corpse." },
+        { accept = 1100, useitem = 5791 }, -- level 34
+        { go = { 1444, 89.54, 45.79 }, fly = true, talk = 4319, text = "Flight master at Thalanaar" }, -- level 34
+        { accept = 98155 }, -- level 34
+        { turnin = { 1100, 1059 } }, -- level 34
+        { go = { 1441, 14.81, 32.87 }, text = "Climb the trail" }, -- level 34
+        { complete = 1135, -- level 34
+          note = "The targets are wyverns." },
+        { accept = 1110, -- level 34
+          note = "Keep clear of Freewind Post." },
+        { accept = 1104 }, -- level 34
+        { turnin = 1179, accept = 1105 }, -- level 34
+        { accept = 1176 }, -- level 34
+        { accept = 1175, sticky = { 1110, 1175 } }, -- level 34
+        { complete = 1175, sticky = { 1105, 1104, 1175 } }, -- level 34
+        { complete = 1176, -- level 34
+          note = "Hunt the vultures. This spot has most of them; elsewhere they are rare. Return here as you do your other quests." },
+        { complete = 1105, -- level 34
+          note = "The targets are turtles." },
+        { complete = 1104, -- level 34
+          note = "The foes here are scorpions." },
+        { complete = 1175 }, -- level 34
+        { complete = 1175 }, -- level 34
+        { complete = 1110, -- level 34
+          note = "Look for assorted mechanical pieces. Parts lie all across the Shimmering Flats." },
+        { turnin = 1110, accept = { 1111, 5762 } }, -- level 34
+        { turnin = 1104 }, -- level 34
+        { turnin = 1105 }, -- level 34
+        { turnin = 1176, accept = 1178 }, -- level 34
+        { turnin = 1175 }, -- level 34
+        { go = { 1446, 51.06, 29.31 }, fly = true, talk = 7823, text = "Fly to Gadgetzan" }, -- level 34
+        { train = true, talk = 12042, races = { "NightElf" }, classes = { "DRUID" } }, -- level 34
+        { turnin = 1135, -- level 34
+          note = "The NPC is indoors." },
+        { turnin = 1219, accept = 1220 }, -- level 34
+        { turnin = { 1220, 1252, 1253, 1284 }, accept = { 1259, 1319 }, floor = "up", -- level 34
+          note = "The NPC is indoors, one floor up." },
+        { turnin = 1259, accept = 1285, floor = "up", -- level 34
+          note = "The NPC is indoors, one floor up." },
+        { turnin = 1285, floor = "up", -- level 34
+          note = "The NPC is indoors, one floor up." },
+        { turnin = 1319, accept = 1320, -- level 34
+          note = "The NPC is indoors." },
+        { turnin = 1320, floor = "up", -- level 34
+          note = "The NPC is indoors, one floor up." },
+        { go = { 1413, 63.03, 37.19 }, fly = true, talk = 16227, text = "Flight master in Ratchet" }, -- level 34
+        { turnin = 1178, accept = 1180, floor = "up", -- level 34
+          note = "The NPC is indoors, one floor up." },
+        { turnin = 1798, accept = 1758, races = { "Human", "Gnome", "Skyborne" }, classes = { "WARLOCK" } }, -- level 34
+        { turnin = 1718, accept = 1719, classes = { "WARRIOR" } }, -- level 34
+        { complete = 1719, classes = { "WARRIOR" }, -- level 34
+          note = "Stand on the metal grating to begin the battle. Shows up once you defeat six challengers." },
+        { turnin = 1719, when = { ready = 1719 }, classes = { "WARRIOR" } }, -- level 34
+        { accept = 1791, when = { done = 1719 }, classes = { "WARRIOR" }, why = { continent = true, kind = "carry", quest = 1791, seconds = 10380, xp = 200 } }, -- level 35
+        { turnin = { 1111, 1039 }, accept = { 1112, 1040 }, why = { kind = "carry", once = true, quest = 1112, seconds = 25380, xp = 1400 } }, -- level 35
+    },
+})
+
+end
+_load('WTFDudeSuite',_WTF)

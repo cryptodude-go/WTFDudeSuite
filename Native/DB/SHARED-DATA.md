@@ -1,0 +1,1 @@
+The six base game-data modules are shared with ../../DB/Ding and loaded by ../../Core/NativeDatabase.lua. Their original QuestieDB/Ding records are retained there. Locale files in this directory extend the same table. This prevents duplicate data on disk and in memory. See CREDITS.md and ../PORT-MANIFEST.json.

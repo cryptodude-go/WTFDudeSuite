@@ -1,0 +1,9 @@
+# Marker planning/reset audit · 0.26.0
+
+Source/live v0.25.0 backed up and verified against the preceding ZIP before editing. All changes are addon source files; no WTF/SavedVariables edits.
+
+Implemented global marker availability checks, conservative stale-owner reclamation, secure group-scoped clear-all hardware action and unique binding, verification before clearing ledgers, per-NPC danger/preference/skip/immunity settings, duplicate-class CC allocation and immunity/type-safe reserved icons. Reset verification includes dead units; normal allocation can treat dead hostile marks as available. Unknown global state is not interpreted as free or successfully cleared. No timer/event/slash places or removes a mark, and no synthetic clicks or restricted combat-log subscription are used. Disabling settings/layout during combat remains deferred.
+
+Tests: full historical Lua 5.1 startup/compile and guide/equipment/sparkle/gathering/spam/quest/travel/navigation suite; v0.25.0 marking regressions; new v0.26.0 tests for off-screen external marks, stale ownership, hidden/error APIs, custom NPC rules, duplicate Mage assignments and roster aliases (including hidden GUIDs), incompatible/immune CC spill, clear-all including off-screen units, failed/unreadable verification, dead-marker verification, combat clear without insecure attribute changes, group scope and unique binding XML. A reference harness executes AutoMarkAssist's actual protected-client detector/mode/call guard with Interface 16001, verifying its Forever limitation separately from its generic description.
+
+Secure actions are simulated against documented Blizzard behavior. Actual WoW Forever in-game behavior still needs player confirmation. No claim of full AutoMarkAssist parity, automatic protected combat marking or a copied curated danger database is made.

@@ -1,0 +1,683 @@
+﻿Quest ID,Name,Quest level,Required level,Action,Reason
+5669,<NYI> A Blessing of Light,15,15,Excluded,Unimplemented/test/deprecated marker
+5670,<NYI> A Blessing of Light,15,15,Excluded,Unimplemented/test/deprecated marker
+5671,<NYI> A Blessing of Light,15,15,Excluded,Unimplemented/test/deprecated marker
+5686,<NYI> The Light Protects You,25,25,Excluded,Unimplemented/test/deprecated marker
+5687,<NYI> The Light Protects You,25,25,Excluded,Unimplemented/test/deprecated marker
+7790,,,0,Excluded,No usable quest name
+8152,,,0,Excluded,No usable quest name
+60860,Your Reward has Arrived!,,0,Added,Factual record; authored route unchanged
+60870,A Special Gift,,0,Added,Factual record; authored route unchanged
+78916,The Heart of the Void,25,25,Added,Factual record; authored route unchanged
+78917,The Heart of the Void,25,25,Added,Factual record; authored route unchanged
+79090,Repelling Invaders,60,18,Added,Factual record; authored route unchanged
+79096,Ataeric: On Arcane Curiosities,20,1,Added,Factual record; authored route unchanged
+79365,With Wind Beneath Your Wings,40,30,Added,Factual record; authored route unchanged
+79482,Stolen Winter Veil Treats,60,25,Added,Factual record; authored route unchanged
+79483,Stolen Winter Veil Treats,60,25,Added,Factual record; authored route unchanged
+79492,Metzen the Reindeer,60,25,Added,Factual record; authored route unchanged
+79495,Metzen the Reindeer,60,25,Added,Factual record; authored route unchanged
+79637,A Ticking Present,40,20,Excluded,No starter or finisher data
+79677,A Quick Grocery Run,40,26,Added,Factual record; authored route unchanged
+79678,Taste Testing,40,26,Added,Factual record; authored route unchanged
+79731,The Troll Scroll,35,1,Added,Factual record; authored route unchanged
+79939,The Broken Hammer,40,35,Added,Factual record; authored route unchanged
+79940,A Lost Brother,40,35,Added,Factual record; authored route unchanged
+79945,Orders from the Grand Crusader,40,35,Added,Factual record; authored route unchanged
+79946,A Brother In Need,40,35,Added,Factual record; authored route unchanged
+79953,A Ludite's Guide to Caring for Your Demonic Pet,35,1,Added,Factual record; authored route unchanged
+79963,By The Light's Grace,40,35,Added,Factual record; authored route unchanged
+79970,Aeonas the Vindicated,40,35,Added,Factual record; authored route unchanged
+80325,The Mad King,40,40,Added,Factual record; authored route unchanged
+80411,The Talisman of Kazdor,50,45,Added,Factual record; authored route unchanged
+80526,Fool Me Twice,50,45,Added,Factual record; authored route unchanged
+81570,Jarl Needs a Blade,35,30,Added,Factual record; authored route unchanged
+81730,Duskwood Mission I: Defeat Worgen,27,23,Added,Factual record; authored route unchanged
+81731,Duskwood Mission II: Defeat Ogres,27,23,Added,Factual record; authored route unchanged
+81732,Duskwood Mission III: Defeat Dragonkin,27,23,Added,Factual record; authored route unchanged
+81733,Duskwood Mission IV: Ogre Intelligence,27,23,Added,Factual record; authored route unchanged
+81734,Duskwood Mission V: Worgen Intelligence,27,23,Added,Factual record; authored route unchanged
+81735,Duskwood Mission VI: Dragon Intelligence,27,23,Added,Factual record; authored route unchanged
+81736,Duskwood Mission VII: Recover Shadowscythe,27,23,Added,Factual record; authored route unchanged
+81737,Duskwood Mission VIII: Recover Ogre Magi text,27,23,Added,Factual record; authored route unchanged
+81738,Duskwood Mission IX: Recover Dragon Egg,27,23,Added,Factual record; authored route unchanged
+81739,Duskwood Mission X: Nightmare Moss,27,23,Added,Factual record; authored route unchanged
+81740,Duskwood Mission XI: Cold Iron Ore,27,23,Added,Factual record; authored route unchanged
+81741,Duskwood Mission XII: Dream-Touched Dragonscale,27,23,Added,Factual record; authored route unchanged
+81742,Duskwood Mission XIII: Defeat Ylanthrius,27,23,Added,Factual record; authored route unchanged
+81743,Duskwood Mission XIV: Defeat Vvarc'zul,27,23,Added,Factual record; authored route unchanged
+81744,Duskwood Mission XV: Defeat Amokarok,27,23,Added,Factual record; authored route unchanged
+81745,Duskwood Mission XVI: Rescue Kroll Mountainshade,27,23,Added,Factual record; authored route unchanged
+81746,Duskwood Mission XVII: Rescue Alara Grovemender,27,23,Added,Factual record; authored route unchanged
+81747,Duskwood Mission XVIII: Rescue Elenora Marshwalker,27,23,Added,Factual record; authored route unchanged
+81762,Some Good News,50,45,Added,Factual record; authored route unchanged
+81764,The Mysterious Merchant,50,45,Added,Factual record; authored route unchanged
+81765,"Elrick, Paladin of the Silver Hand",50,45,Added,Factual record; authored route unchanged
+81766,The Bloody Missive,50,45,Added,Factual record; authored route unchanged
+81790,Materials of Significance,53,45,Added,Factual record; authored route unchanged
+81900,The Burning Beast,54,45,Added,Factual record; authored route unchanged
+81917,Chains That Bind,54,45,Added,Factual record; authored route unchanged
+81919,Brought to Heel,54,45,Added,Factual record; authored route unchanged
+81924,Wisdom of the Guardians,50,40,Added,Factual record; authored route unchanged
+81944,A Newly Discovered Purpose...,53,45,Added,Factual record; authored route unchanged
+81951,The Liminal and the Arcane,45,1,Added,Factual record; authored route unchanged
+82062,Ever After,56,0,Excluded,No starter or finisher data
+82084,A Lesson in Literacy,45,42,Added,Factual record; authored route unchanged
+83934,Show Me the Money!,60,55,Added,Factual record; authored route unchanged
+84147,An Earnest Proposition,60,58,Added,Factual record; authored route unchanged
+84148,An Earnest Proposition,60,58,Added,Factual record; authored route unchanged
+84149,An Earnest Proposition,60,58,Added,Factual record; authored route unchanged
+84150,An Earnest Proposition,60,58,Added,Factual record; authored route unchanged
+84151,An Earnest Proposition,60,0,Excluded,No starter or finisher data
+84154,An Earnest Proposition,60,58,Added,Factual record; authored route unchanged
+84155,An Earnest Proposition,60,58,Added,Factual record; authored route unchanged
+84156,An Earnest Proposition,60,58,Added,Factual record; authored route unchanged
+84157,An Earnest Proposition,60,58,Added,Factual record; authored route unchanged
+84158,An Earnest Proposition,60,58,Added,Factual record; authored route unchanged
+84159,An Earnest Proposition,60,58,Added,Factual record; authored route unchanged
+84160,An Earnest Proposition,60,58,Added,Factual record; authored route unchanged
+84161,An Earnest Proposition,60,58,Added,Factual record; authored route unchanged
+84162,An Earnest Proposition,60,58,Added,Factual record; authored route unchanged
+84318,Oi!,57,54,Added,Factual record; authored route unchanged
+84319,Oh No Ye Don't!,58,0,Excluded,No starter or finisher data
+84330,A Wee Bit O' Necromancy,59,54,Added,Factual record; authored route unchanged
+84395,Undead Potatoes,60,1,Added,Factual record; authored route unchanged
+84400,The Knight and the Lady,60,1,Added,Factual record; authored route unchanged
+84401,Scourge: Undead Menace or Misunderstood?,60,1,Added,Factual record; authored route unchanged
+86577,A Sampling of Putrescence,55,0,Added,Factual record; authored route unchanged
+86611,Stag Lord's Bauble,55,48,Added,Factual record; authored route unchanged
+86612,Stag Lord's Bauble,55,48,Added,Factual record; authored route unchanged
+86615,Treaty Obligations,51,40,Added,Factual record; authored route unchanged
+86616,Repurposed Totems,48,45,Added,Factual record; authored route unchanged
+86620,Fledgling Rescue,51,0,Added,Factual record; authored route unchanged
+86746,The Legashi Threat,53,0,Added,Factual record; authored route unchanged
+86747,Legashi Horns,,0,Added,Factual record; authored route unchanged
+86752,Report to Rageroar,53,0,Excluded,No starter or finisher data
+86799,Encroaching Corruption,53,0,Excluded,No starter or finisher data
+86804,An Unlikely Source,53,0,Excluded,No starter or finisher data
+86925,Toil and Trouble,53,0,Excluded,No starter or finisher data
+87295,Deflective Surface,52,0,Added,Factual record; authored route unchanged
+87451,Memories of Rockard,55,45,Excluded,No starter or finisher data
+87492,Uncanny Crystal,55,50,Added,Factual record; authored route unchanged
+87494,Microcrystal Contamination,55,0,Added,Factual record; authored route unchanged
+88807,Slay the Spitelash,48,45,Added,Factual record; authored route unchanged
+88809,Preserving Eldarath,52,45,Added,Factual record; authored route unchanged
+88812,Reclaiming Ravencrest,55,47,Added,Factual record; authored route unchanged
+88813,The Head of the Serpent,55,47,Added,Factual record; authored route unchanged
+88821,Making Contact,51,47,Added,Factual record; authored route unchanged
+88857,Saving a Sentinel,47,45,Added,Factual record; authored route unchanged
+88884,Highborne Tablets,52,47,Added,Factual record; authored route unchanged
+88917,Slithering Looters,52,47,Added,Factual record; authored route unchanged
+89001,Home on the Range,48,45,Added,Factual record; authored route unchanged
+89013,Gettin' Buzzed,48,45,Added,Factual record; authored route unchanged
+89015,Deadliest Catch,56,50,Added,Factual record; authored route unchanged
+89037,Murloc Thieves,52,47,Added,Factual record; authored route unchanged
+89038,A Monumental Task,55,47,Added,Factual record; authored route unchanged
+89053,Your Final Reward,55,47,Added,Factual record; authored route unchanged
+89228,Winter Frontier Fishery,48,45,Added,Factual record; authored route unchanged
+89470,Ill Tidings,55,47,Added,Factual record; authored route unchanged
+90487,Ancient Allies,56,0,Added,Factual record; authored route unchanged
+90647,The Staff of the Mountain,57,0,Added,Factual record; authored route unchanged
+90702,Disturbed Grave,58,54,Added,Factual record; authored route unchanged
+90750,More Work?,55,0,Added,Factual record; authored route unchanged
+90813,Pay Dirt!,53,50,Excluded,No starter or finisher data
+90854,Leather for Inclement Weather,57,0,Added,Factual record; authored route unchanged
+90865,Eyes of the Watchers,58,0,Added,Factual record; authored route unchanged
+91488,Home on the Range,48,45,Added,Factual record; authored route unchanged
+91497,Seals of the Sin'dorei,53,44,Added,Factual record; authored route unchanged
+91500,An Explosive Gambit,55,44,Added,Factual record; authored route unchanged
+91531,Revenge Exacted,55,44,Added,Factual record; authored route unchanged
+91538,Sin'dorei Tome of Summoning,55,44,Added,Factual record; authored route unchanged
+91547,Sin'dorei Tome of Summoning,55,44,Added,Factual record; authored route unchanged
+91548,Vek'zol,55,44,Added,Factual record; authored route unchanged
+91564,Itching for a Fixing,57,0,Excluded,No starter or finisher data
+91568,Long Walks on the Beach,51,45,Added,Factual record; authored route unchanged
+91569,Blue Gold,53,45,Added,Factual record; authored route unchanged
+91607,Pay Dirt!,53,50,Excluded,No starter or finisher data
+91608,Gettin' Buzzed,48,45,Added,Factual record; authored route unchanged
+91610,Winter Frontier Fishery,48,45,Added,Factual record; authored route unchanged
+91611,Deadliest Catch,56,50,Excluded,No starter or finisher data
+91685,Ley of the Land,54,45,Added,Factual record; authored route unchanged
+91688,To the Summit of Eternity,59,54,Added,Factual record; authored route unchanged
+91696,Open Season,58,0,Added,Factual record; authored route unchanged
+91697,Meet the Elders,57,0,Added,Factual record; authored route unchanged
+91698,Barkskin Breakout,58,0,Added,Factual record; authored route unchanged
+91734,Remote Contact,52,44,Added,Factual record; authored route unchanged
+91735,Remote Contact,52,44,Added,Factual record; authored route unchanged
+91737,Remote Contact,52,44,Added,Factual record; authored route unchanged
+91754,Rub Some Dirt In It,56,0,Added,Factual record; authored route unchanged
+91755,Leaves to Ligatures,56,0,Added,Factual record; authored route unchanged
+91770,Bark Bite,56,0,Added,Factual record; authored route unchanged
+91794,Flags of Our Forebears,59,54,Added,Factual record; authored route unchanged
+91877,Demon Hunter's Hunter,55,0,Added,Factual record; authored route unchanged
+91881,The Western Post,57,54,Added,Factual record; authored route unchanged
+91882,The Grand Alliance,55,0,Added,Factual record; authored route unchanged
+91883,Spear of the Skylord,59,0,Added,Factual record; authored route unchanged
+91902,A Sealed Crate,60,0,Added,Factual record; authored route unchanged
+91906,A Sealed Crate,60,0,Added,Factual record; authored route unchanged
+91907,A Sealed Crate,60,0,Added,Factual record; authored route unchanged
+91923,Celastrus the Bitter,57,0,Added,Factual record; authored route unchanged
+91952,The Source of the Corruption,55,0,Added,Factual record; authored route unchanged
+92008,Premiere Parts,56,0,Added,Factual record; authored route unchanged
+92009,Crate Expectations,56,0,Added,Factual record; authored route unchanged
+92011,Rubble Rummage,58,0,Added,Factual record; authored route unchanged
+92014,Fox Hole,57,54,Added,Factual record; authored route unchanged
+92015,Area Denial Skunks,56,54,Added,Factual record; authored route unchanged
+92016,Rootwork,60,0,Added,Factual record; authored route unchanged
+92017,Cleansing Winds,59,0,Added,Factual record; authored route unchanged
+92020,Hol'anyee's Big Book of Big Lizards,55,0,Added,Factual record; authored route unchanged
+92064,Tree Free,56,54,Added,Factual record; authored route unchanged
+92065,Blackmaw Reclamation,60,0,Excluded,No starter or finisher data
+92066,The Twin Bears,55,0,Excluded,No starter or finisher data
+92067,,,0,Excluded,No usable quest name
+92069,"Claws That Rend, Tusks that Gore",58,0,Added,Factual record; authored route unchanged
+92070,A Lost Memento,55,0,Excluded,No starter or finisher data
+92100,Anywhere But Here,58,0,Added,Factual record; authored route unchanged
+92101,Lifted by Legacy,58,54,Added,Factual record; authored route unchanged
+92102,Praise,58,0,Added,Factual record; authored route unchanged
+92111,Of Friend and Fur,57,0,Added,Factual record; authored route unchanged
+92147,Highfeather Helper,58,0,Added,Factual record; authored route unchanged
+92169,Paying Back the Pact,59,0,Added,Factual record; authored route unchanged
+92171,Taking to New Heights,58,0,Added,Factual record; authored route unchanged
+92317,Stolen Life,58,0,Added,Factual record; authored route unchanged
+92328,Siegecraft,56,0,Added,Factual record; authored route unchanged
+92329,Drum Up Trouble,60,0,Added,Factual record; authored route unchanged
+92335,Ashes of the Legion Ascent,59,0,Added,Factual record; authored route unchanged
+92343,Get to the Roots of It,55,45,Added,Factual record; authored route unchanged
+92344,Get to the Roots of It,55,45,Added,Factual record; authored route unchanged
+92345,Beneath Nordrassil,55,45,Added,Factual record; authored route unchanged
+92346,Beneath Nordrassil,55,45,Added,Factual record; authored route unchanged
+92433,Now We're Cooking,57,0,Added,Factual record; authored route unchanged
+92446,Head Scratcher,60,54,Added,Factual record; authored route unchanged
+92449,Blight No More,58,54,Added,Factual record; authored route unchanged
+92500,A Bit of the Sky,58,0,Added,Factual record; authored route unchanged
+92533,Twisted Tools,60,0,Added,Factual record; authored route unchanged
+92591,Final Death,59,57,Added,Factual record; authored route unchanged
+92592,Final Death,59,57,Added,Factual record; authored route unchanged
+92593,Avalanche of Corruption,59,54,Added,Factual record; authored route unchanged
+92594,"Kindling, Kinda",56,0,Added,Factual record; authored route unchanged
+92609,Feathers in Flight,57,54,Added,Factual record; authored route unchanged
+92612,Aid from Moonglade,58,0,Added,Factual record; authored route unchanged
+92702,Branch Out,56,54,Added,Factual record; authored route unchanged
+92833,Ve'han's Fall,60,0,Added,Factual record; authored route unchanged
+92842,A Cousin Abroad,55,0,Added,Factual record; authored route unchanged
+92858,WANTED: Ohk'zi,43,39,Added,Factual record; authored route unchanged
+92859,Shroud of the Winter Wilds,60,0,Added,Factual record; authored route unchanged
+92878,Lost for Words,43,36,Added,Factual record; authored route unchanged
+92914,Strange Pylons,43,0,Added,Factual record; authored route unchanged
+92959,The Dying Ancients,56,0,Added,Factual record; authored route unchanged
+92960,Siphoned Ephemeral Essence,59,0,Added,Factual record; authored route unchanged
+93016,A Brief History Lesson,43,0,Added,Factual record; authored route unchanged
+93030,The Knight of Mourning,58,50,Excluded,No starter or finisher data
+93127,Summit Sentries,60,0,Added,Factual record; authored route unchanged
+93161,The Ancient Hilt,-1,1,Added,Factual record; authored route unchanged
+93162,,,0,Excluded,No usable quest name
+93197,Mending Communications,58,0,Added,Factual record; authored route unchanged
+93269,Top of the Post,58,0,Added,Factual record; authored route unchanged
+93341,Forlorn Gardens,43,0,Added,Factual record; authored route unchanged
+93362,What They've Done to My Peonies,43,0,Added,Factual record; authored route unchanged
+93383,Contents Under Pressure,57,54,Added,Factual record; authored route unchanged
+93394,Meeting the Magister,43,0,Added,Factual record; authored route unchanged
+93404,Rot and Regret,49,0,Added,Factual record; authored route unchanged
+93406,Unfrozen Deliveries,56,0,Added,Factual record; authored route unchanged
+93407,A Thorn in the Paw,60,0,Added,Factual record; authored route unchanged
+93422,Blackthorne Blackout,60,0,Added,Factual record; authored route unchanged
+93443,Lost Shipping Crate,36,36,Added,Factual record; authored route unchanged
+93444,Bait the Beast,60,0,Added,Factual record; authored route unchanged
+93450,Phantasmal Problems,42,0,Added,Factual record; authored route unchanged
+93510,Wake Memories,58,54,Added,Factual record; authored route unchanged
+93521,Challenger of the Gods,60,0,Added,Factual record; authored route unchanged
+93546,Spectral Iron Ore,42,0,Added,Factual record; authored route unchanged
+93547,A Thorny Solution,60,0,Added,Factual record; authored route unchanged
+93551,Praise,58,0,Excluded,No starter or finisher data
+93567,Ends Meet,58,0,Added,Factual record; authored route unchanged
+93568,Partially Digested Collar,45,0,Added,Factual record; authored route unchanged
+93572,To Serve The Draenei,55,0,Excluded,No starter or finisher data
+93574,Corpsefeeder's Carapace,45,0,Added,Factual record; authored route unchanged
+93584,Cult Closure,60,0,Added,Factual record; authored route unchanged
+93594,Word of the Woods,43,0,Added,Factual record; authored route unchanged
+93601,Passing the Blame,45,0,Added,Factual record; authored route unchanged
+93604,Agamaggan's Blood,45,0,Added,Factual record; authored route unchanged
+93606,Not on Squealing Terms,45,0,Added,Factual record; authored route unchanged
+93609,Forlorn Necklace,45,0,Added,Factual record; authored route unchanged
+93615,Kits and Cats,57,0,Added,Factual record; authored route unchanged
+93617,Prey and Predator,57,0,Added,Factual record; authored route unchanged
+93644,Tattered Journal,45,0,Added,Factual record; authored route unchanged
+93679,Visions of Another,55,0,Added,Factual record; authored route unchanged
+93684,The Found One,55,0,Added,Factual record; authored route unchanged
+93685,To Serve Kum'isha,55,0,Added,Factual record; authored route unchanged
+93686,Kum'isha's Endeavors,55,0,Excluded,No starter or finisher data
+93747,Violence Into Verdure,56,0,Added,Factual record; authored route unchanged
+93759,The Bounty of Nature,56,0,Added,Factual record; authored route unchanged
+93773,The Pact,58,0,Added,Factual record; authored route unchanged
+93786,A Message in Blood,36,35,Added,Factual record; authored route unchanged
+93787,Food for the Taking,36,36,Added,Factual record; authored route unchanged
+93788,Borrowed Blades,38,36,Added,Factual record; authored route unchanged
+93825,Barkbound Blessings,57,0,Added,Factual record; authored route unchanged
+93826,Deal Dread to Deadwood,57,0,Added,Factual record; authored route unchanged
+93827,Windswept Wards,58,0,Added,Factual record; authored route unchanged
+93828,Herbs of the Hollow,57,0,Added,Factual record; authored route unchanged
+93830,Water of Hyjal,57,0,Added,Factual record; authored route unchanged
+93831,Sweetpaw Jam,57,0,Added,Factual record; authored route unchanged
+93833,Wicked Wisdom,57,0,Added,Factual record; authored route unchanged
+93834,Burrow Beetles,57,0,Added,Factual record; authored route unchanged
+93848,Work Well Done,60,0,Added,Factual record; authored route unchanged
+93925,Beads for Brerufa,,0,Added,Factual record; authored route unchanged
+93952,Balance Through Strength,57,0,Added,Factual record; authored route unchanged
+93971,Farholde Scouting Report,45,36,Added,Factual record; authored route unchanged
+93976,The Goblin Trader,36,36,Added,Factual record; authored route unchanged
+94399,Ravasaur Provisions,60,58,Excluded,No starter or finisher data
+94479,One Person's Trash,56,0,Added,Factual record; authored route unchanged
+94480,A Gift From Our Enemies,36,36,Added,Factual record; authored route unchanged
+94481,A Serving of Strength,38,36,Added,Factual record; authored route unchanged
+94483,Show Them How It's Done,39,36,Added,Factual record; authored route unchanged
+94504,Barkskin Beginnings,57,0,Added,Factual record; authored route unchanged
+94532,Gnoll Infestation,38,36,Added,Factual record; authored route unchanged
+94533,Snargl's Snout,40,36,Added,Factual record; authored route unchanged
+94535,Bristle Hills Bandits,38,36,Added,Factual record; authored route unchanged
+94556,Jom-jom's Escape,42,36,Added,Factual record; authored route unchanged
+94613,My Kingdom for a Horse,38,36,Added,Factual record; authored route unchanged
+94614,Freshwater Fiends,38,36,Added,Factual record; authored route unchanged
+94615,Foal Play,38,36,Added,Factual record; authored route unchanged
+94617,Coyote Huntin',38,36,Added,Factual record; authored route unchanged
+94618,Wheeler's Fleeing Steeds,38,36,Added,Factual record; authored route unchanged
+94668,Bloodmaster's Ring,41,36,Added,Factual record; authored route unchanged
+94669,Pay to Play,41,36,Added,Factual record; authored route unchanged
+94670,Bloodmaster's Ring,41,36,Added,Factual record; authored route unchanged
+94672,Encroaching Twilight,41,36,Added,Factual record; authored route unchanged
+94678,Gnoll Infestation,38,36,Added,Factual record; authored route unchanged
+94679,Snargl's Snout,40,36,Added,Factual record; authored route unchanged
+94680,Twilight Missives,41,36,Added,Factual record; authored route unchanged
+94727,Digging for Answers,40,36,Added,Factual record; authored route unchanged
+94733,Our Ogre Friend,41,36,Added,Factual record; authored route unchanged
+94734,A Boar's Delight,41,36,Added,Factual record; authored route unchanged
+94737,A Treat for a Friend,41,36,Added,Factual record; authored route unchanged
+94739,Bloodmaster's Ring,42,36,Added,Factual record; authored route unchanged
+94744,The Wayward Warrior,43,38,Added,Factual record; authored route unchanged
+94745,Carving a Path,44,38,Added,Factual record; authored route unchanged
+94748,Break Their Chains,44,38,Added,Factual record; authored route unchanged
+94768,Bring Me His Head,46,38,Added,Factual record; authored route unchanged
+94782,The Western Post,57,54,Added,Factual record; authored route unchanged
+94829,What We Lost,40,36,Added,Factual record; authored route unchanged
+94832,Belle's Ring,58,54,Added,Factual record; authored route unchanged
+94841,Lost Shipping Crate,38,36,Added,Factual record; authored route unchanged
+94842,Unsavory Plant Food,38,36,Added,Factual record; authored route unchanged
+94843,From Seed to Sprout,38,36,Added,Factual record; authored route unchanged
+94857,"If a Tree Falls, and No One Hears...",39,36,Added,Factual record; authored route unchanged
+94858,All That's Left,40,36,Added,Factual record; authored route unchanged
+94861,Helping Hands,39,36,Added,Factual record; authored route unchanged
+94877,Saving Sunnyglade,40,36,Added,Factual record; authored route unchanged
+94879,Scraps of Knowledge,40,36,Added,Factual record; authored route unchanged
+94881,Curious Trinkets,38,36,Added,Factual record; authored route unchanged
+94884,An Unsettling Discovery,41,36,Added,Factual record; authored route unchanged
+94885,Field Marshal's Log,40,36,Added,Factual record; authored route unchanged
+94886,The Western Front,44,38,Added,Factual record; authored route unchanged
+94887,Saving Marshal Ryan,47,36,Added,Factual record; authored route unchanged
+94888,No Soldier Left Behind,44,38,Added,Factual record; authored route unchanged
+94889,Carving a Path,44,38,Added,Factual record; authored route unchanged
+94890,Bring Me His Head,46,38,Added,Factual record; authored route unchanged
+94891,News to Farholde,46,38,Added,Factual record; authored route unchanged
+94892,Dying Wish,47,36,Added,Factual record; authored route unchanged
+94893,Delivering Closure,47,36,Added,Factual record; authored route unchanged
+94894,The Twilight Threat,45,38,Added,Factual record; authored route unchanged
+94895,Lost Shipping Crate,38,36,Added,Factual record; authored route unchanged
+94907,A Small Favor,44,36,Added,Factual record; authored route unchanged
+94923,Hats Off,38,36,Added,Factual record; authored route unchanged
+94924,Hunting the Hunters,39,36,Added,Factual record; authored route unchanged
+94925,A Fur Trade,39,36,Added,Factual record; authored route unchanged
+94926,Drop the Hammer,45,38,Added,Factual record; authored route unchanged
+94927,Dunston Checks Out,44,38,Added,Factual record; authored route unchanged
+94928,A Few Furs for Friz,39,36,Added,Factual record; authored route unchanged
+94929,Deliver the Second Shipment,38,36,Added,Factual record; authored route unchanged
+94930,Lost Shipping Crate,38,36,Added,Factual record; authored route unchanged
+94931,Stolen Saws,38,36,Added,Factual record; authored route unchanged
+94961,Biting the Hand,40,0,Added,Factual record; authored route unchanged
+94962,Bloodmaster's Ring,42,36,Added,Factual record; authored route unchanged
+94963,Biting the Hand,40,36,Added,Factual record; authored route unchanged
+94964,Bloodmaster's Ring,43,36,Added,Factual record; authored route unchanged
+94965,Bloodmaster's Ring,44,36,Added,Factual record; authored route unchanged
+94968,Eye of Mugg,45,40,Added,Factual record; authored route unchanged
+94969,Krol'dok No More!,42,40,Excluded,No starter or finisher data
+94971,A Paladin's Steed,40,40,Added,Factual record; authored route unchanged
+94972,Tome of Twilight,44,39,Added,Factual record; authored route unchanged
+94973,Krol'dok Moulding,41,38,Added,Factual record; authored route unchanged
+94974,Key Ingredients,41,38,Added,Factual record; authored route unchanged
+94975,A Token of Vengeance,42,38,Added,Factual record; authored route unchanged
+94980,Krol'dok Moulding,41,38,Added,Factual record; authored route unchanged
+94981,Key Ingredients,41,38,Added,Factual record; authored route unchanged
+94982,Eye of Mugg,45,40,Added,Factual record; authored route unchanged
+94983,Twilight Mementos,42,38,Added,Factual record; authored route unchanged
+94984,Tome of Twilight,44,39,Added,Factual record; authored route unchanged
+94992,Rescue Roundup,38,36,Added,Factual record; authored route unchanged
+94997,Lingering Essence,42,38,Added,Factual record; authored route unchanged
+94998,Curios of Curiosity,42,38,Added,Factual record; authored route unchanged
+94999,Eyes for the Watchman,36,36,Added,Factual record; authored route unchanged
+95006,Stolen Power,58,0,Added,Factual record; authored route unchanged
+95026,Blight No More,58,54,Added,Factual record; authored route unchanged
+95027,Feathers in Flight,57,54,Added,Factual record; authored route unchanged
+95033,On the Other Side,41,40,Added,Factual record; authored route unchanged
+95059,Frazzlespark's Crate,36,36,Added,Factual record; authored route unchanged
+95062,Frazzlespark's Crate,36,36,Added,Factual record; authored route unchanged
+95063,Bloodmaster's Ring,45,36,Added,Factual record; authored route unchanged
+95064,Preventative Measures,39,36,Added,Factual record; authored route unchanged
+95066,The Rog'mar Situation,39,36,Added,Factual record; authored route unchanged
+95118,Saltwater Savages,41,36,Added,Factual record; authored route unchanged
+95119,Unfriendly Competition,43,38,Added,Factual record; authored route unchanged
+95120,WANTED: Old Rot-Chum,42,0,Added,Factual record; authored route unchanged
+95121,A Taste of the Sea,40,36,Added,Factual record; authored route unchanged
+95122,Unchecked Expansion,44,0,Added,Factual record; authored route unchanged
+95123,A Blast Ye Scurvy Dogs!,44,0,Added,Factual record; authored route unchanged
+95124,Admiral Lamora,45,0,Added,Factual record; authored route unchanged
+95141,Report to Rog'mar,38,36,Added,Factual record; authored route unchanged
+95143,Finding Tan'jani,38,36,Added,Factual record; authored route unchanged
+95144,Overseas Delivery,38,36,Added,Factual record; authored route unchanged
+95147,The Lost Scout,37,36,Added,Factual record; authored route unchanged
+95148,Southern Watch Gnoll Report,37,36,Added,Factual record; authored route unchanged
+95156,Stuff 'Em and Stick 'Em,37,36,Added,Factual record; authored route unchanged
+95162,Paletusk Harvesting,41,38,Added,Factual record; authored route unchanged
+95163,Drive Them Back,40,38,Added,Factual record; authored route unchanged
+95165,"See Ya, Scallywags!",44,38,Added,Factual record; authored route unchanged
+95181,Twilight Scouting Report,42,36,Excluded,No starter or finisher data
+95183,Step One: Rock,41,38,Added,Factual record; authored route unchanged
+95184,The Sharpest of Blades,38,36,Added,Factual record; authored route unchanged
+95194,Our Man in Theramore,53,48,Added,Factual record; authored route unchanged
+95196,Watch Yer Back,53,48,Added,Factual record; authored route unchanged
+95198,The Return of the King?,53,48,Added,Factual record; authored route unchanged
+95218,More of the Same,56,54,Added,Factual record; authored route unchanged
+95219,From Port to Port,41,40,Added,Factual record; authored route unchanged
+95248,To the Summit of Eternity,59,54,Added,Factual record; authored route unchanged
+95254,WANTED: Trapclaw,42,36,Added,Factual record; authored route unchanged
+95260,Terrors From the Deep,42,0,Added,Factual record; authored route unchanged
+95261,It Takes Guts,42,0,Added,Factual record; authored route unchanged
+95262,The Secret Prison,53,48,Added,Factual record; authored route unchanged
+95263,Somber News,53,48,Added,Factual record; authored route unchanged
+95264,Shaw Needs To Know,53,48,Added,Factual record; authored route unchanged
+95267,The Monster Surfaces,42,38,Added,Factual record; authored route unchanged
+95278,"It Is Time, Brother...",45,38,Added,Factual record; authored route unchanged
+95283,The Missing Kor'kron,53,48,Added,Factual record; authored route unchanged
+95284,The Elite of the Elite,53,48,Added,Factual record; authored route unchanged
+95285,"Right Place, Wrong Time",53,48,Added,Factual record; authored route unchanged
+95288,Smuggler's Paradise,43,0,Added,Factual record; authored route unchanged
+95293,Smuggler's Special,42,38,Added,Factual record; authored route unchanged
+95294,Smuggler's Bargain,42,0,Added,Factual record; authored route unchanged
+95295,I Know a Guy,40,36,Added,Factual record; authored route unchanged
+95296,Shipping and Handling,40,0,Added,Factual record; authored route unchanged
+95309,No Orc Left Behind,53,48,Added,Factual record; authored route unchanged
+95312,Coming to Collect,40,0,Added,Factual record; authored route unchanged
+95315,The Riverglades Report,38,36,Added,Factual record; authored route unchanged
+95316,The Experimental Method,57,0,Added,Factual record; authored route unchanged
+95317,"Notation, Notation, Notation",57,0,Added,Factual record; authored route unchanged
+95318,Taste of Ash,57,0,Added,Factual record; authored route unchanged
+95319,Crystalline Collection,57,0,Added,Factual record; authored route unchanged
+95320,A Curious Question,57,0,Added,Factual record; authored route unchanged
+95321,Tazzik's Dues,40,0,Added,Factual record; authored route unchanged
+95322,Get the Goods,40,0,Added,Factual record; authored route unchanged
+95325,We've Been Robbed!,40,0,Added,Factual record; authored route unchanged
+95326,The Big Payback,39,0,Added,Factual record; authored route unchanged
+95327,All's Well That Ends Well,40,0,Added,Factual record; authored route unchanged
+95329,Out in the Field,38,36,Added,Factual record; authored route unchanged
+95330,Love Thy Neighbor,37,36,Added,Factual record; authored route unchanged
+95378,The Hydra's Head,58,0,Added,Factual record; authored route unchanged
+95379,A Revenge So Sweet,58,0,Added,Factual record; authored route unchanged
+95380,A Prolific Source,57,0,Added,Factual record; authored route unchanged
+95383,Shipping and Handling,40,0,Added,Factual record; authored route unchanged
+95385,Torn Mystical Scroll,43,0,Added,Factual record; authored route unchanged
+95417,The Purple Ones,40,36,Added,Factual record; authored route unchanged
+95418,Spread the Word,40,36,Added,Factual record; authored route unchanged
+95420,Land of Giants,40,36,Added,Factual record; authored route unchanged
+95424,Might Makes Right,41,36,Added,Factual record; authored route unchanged
+95425,Unworthy Champion,42,36,Added,Factual record; authored route unchanged
+95426,Rog'mar Supplies,39,36,Added,Factual record; authored route unchanged
+95427,Twilight No More!,41,36,Added,Factual record; authored route unchanged
+95428,Clugfist's Decree,41,36,Added,Factual record; authored route unchanged
+95431,Rumblings of Discontent,41,38,Added,Factual record; authored route unchanged
+95432,Rise Up!,43,36,Added,Factual record; authored route unchanged
+95433,Death to the Executioner,46,36,Added,Factual record; authored route unchanged
+95454,The Honor of the Kor'kron,53,48,Excluded,No starter or finisher data
+95472,Consolation Prize,40,0,Added,Factual record; authored route unchanged
+95483,Thrall Needs to Know,53,48,Added,Factual record; authored route unchanged
+95511,Your First Feline Friend,40,40,Added,Factual record; authored route unchanged
+95561,Apple of My Eye,38,36,Added,Factual record; authored route unchanged
+95562,Cut Off the Heads,41,36,Added,Factual record; authored route unchanged
+95568,Seeds for a New Season,56,0,Added,Factual record; authored route unchanged
+95569,Hope for Hatchlings,56,0,Added,Factual record; authored route unchanged
+95599,The Old Key,42,0,Excluded,No starter or finisher data
+95601,The Purple Ones,40,36,Added,Factual record; authored route unchanged
+95602,Sickening Lights,40,36,Added,Factual record; authored route unchanged
+95603,Bats in the Belfry,38,36,Added,Factual record; authored route unchanged
+95611,Rites of Respect,56,0,Added,Factual record; authored route unchanged
+95613,Keeping the Light On,38,36,Added,Factual record; authored route unchanged
+95615,In Memoriam,38,36,Added,Factual record; authored route unchanged
+95642,Abominable Magics,40,36,Added,Factual record; authored route unchanged
+95643,Indiscriminate Purge,40,36,Added,Factual record; authored route unchanged
+95753,Challenge of the Desert Wolf,45,0,Added,Factual record; authored route unchanged
+95766,Fine Feathered Friend,56,0,Added,Factual record; authored route unchanged
+95769,Threading a Solution,57,0,Excluded,No starter or finisher data
+95786,An Acquaintance in Southshore,40,30,Added,Factual record; authored route unchanged
+95787,Take Two With Water,40,30,Added,Factual record; authored route unchanged
+95788,Magics of the Drowned City,40,30,Added,Factual record; authored route unchanged
+95789,Shady Saltseers,40,34,Added,Factual record; authored route unchanged
+95790,Digestible Research,60,55,Excluded,No starter or finisher data
+95791,The Saltseer Captain,40,34,Added,Factual record; authored route unchanged
+95792,Clear 'em Out,42,0,Added,Factual record; authored route unchanged
+95793,Stemming the Demon Tide,59,0,Added,Factual record; authored route unchanged
+95798,The Web of Magic,40,30,Added,Factual record; authored route unchanged
+95799,Findings for the Explorer's League,40,30,Added,Factual record; authored route unchanged
+95882,WANTED: Scoutmaster Vargas,43,38,Added,Factual record; authored route unchanged
+95912,WANTED: Blademaster Kaijo,42,38,Added,Factual record; authored route unchanged
+95913,Fit for a Princess,38,36,Added,Factual record; authored route unchanged
+95924,Panic at the Digsite,60,55,Added,Factual record; authored route unchanged
+95925,Mapping the Way Forward,60,55,Added,Factual record; authored route unchanged
+95926,The Dark Crystal,60,55,Added,Factual record; authored route unchanged
+95928,Crystalline Elements,60,55,Added,Factual record; authored route unchanged
+95934,Proof of Profit,42,0,Added,Factual record; authored route unchanged
+95935,Hail the Dragonslayer,43,36,Added,Factual record; authored route unchanged
+95936,Hail the Dragonslayer,43,36,Added,Factual record; authored route unchanged
+95943,Foreman's Plight,38,36,Added,Factual record; authored route unchanged
+95951,Fetch 'n' Fletch,38,36,Added,Factual record; authored route unchanged
+95955,Stick 'Em,39,36,Added,Factual record; authored route unchanged
+95957,Drink Up!,38,36,Added,Factual record; authored route unchanged
+95961,Stepped Out,38,36,Added,Factual record; authored route unchanged
+95975,Her World,41,36,Added,Factual record; authored route unchanged
+95982,Not My Circus,38,36,Added,Factual record; authored route unchanged
+95983,A Feast for Buzzards,38,36,Added,Factual record; authored route unchanged
+95984,Song of the Strider,39,36,Added,Factual record; authored route unchanged
+95986,King of the Wild Plains,41,36,Added,Factual record; authored route unchanged
+95988,Goes Down Smooth,38,36,Added,Factual record; authored route unchanged
+95991,WANTED: Ghostmaw,42,38,Added,Factual record; authored route unchanged
+95992,WANTED: Ghostmaw,42,38,Added,Factual record; authored route unchanged
+96003,Drawing Down the Malevolent,60,0,Added,Factual record; authored route unchanged
+96009,High Stakes,38,36,Added,Factual record; authored route unchanged
+96010,Fragments of the Pylons,41,0,Added,Factual record; authored route unchanged
+96015,A Miner Problem,43,38,Added,Factual record; authored route unchanged
+96018,Powering the Pylons,43,0,Added,Factual record; authored route unchanged
+96025,As the Crow Flies,59,0,Added,Factual record; authored route unchanged
+96026,Step Two: More Rock,41,38,Added,Factual record; authored route unchanged
+96060,Tempered Expectations,42,0,Added,Factual record; authored route unchanged
+96063,Gaseous Gold,38,0,Added,Factual record; authored route unchanged
+96067,Rock 'em and Sock 'em,40,0,Added,Factual record; authored route unchanged
+96076,In Demand - Ancient Elven Curiosities,60,0,Added,Factual record; authored route unchanged
+96077,Belle's Ring,58,54,Added,Factual record; authored route unchanged
+96078,A Tale Spun Around the Fire,40,30,Added,Factual record; authored route unchanged
+96081,Wound Dressings,40,36,Added,Factual record; authored route unchanged
+96082,Doctor's Orderly,40,36,Added,Factual record; authored route unchanged
+96083,Clerical Quarantine,40,36,Added,Factual record; authored route unchanged
+96084,Something's in the Water,40,36,Added,Factual record; authored route unchanged
+96085,Upstream Contamination,42,36,Added,Factual record; authored route unchanged
+96103,A Feast for Buzzards,38,36,Added,Factual record; authored route unchanged
+96104,Song of the Strider,39,36,Added,Factual record; authored route unchanged
+96105,King of the Wild Plains,41,36,Added,Factual record; authored route unchanged
+96107,Feathers for Fletching,40,36,Added,Factual record; authored route unchanged
+96108,Poison Tips,40,36,Added,Factual record; authored route unchanged
+96109,A Hunter's Quiver,40,36,Added,Factual record; authored route unchanged
+96125,In Need of Relief,43,38,Added,Factual record; authored route unchanged
+96126,An Ogre's Captive,44,38,Added,Factual record; authored route unchanged
+96131,An Oldstone But An Old Friend,58,0,Added,Factual record; authored route unchanged
+96145,Past Wing and Claw,58,0,Added,Factual record; authored route unchanged
+96209,"The Ancient, Orokai",58,0,Added,Factual record; authored route unchanged
+96246,Blackmaw Pouches,,0,Excluded,No starter or finisher data
+96252,Tarnished Treasures,58,0,Added,Factual record; authored route unchanged
+96255,Amalgamated Marrow,58,0,Added,Factual record; authored route unchanged
+96262,Prickly Pinecones,57,0,Added,Factual record; authored route unchanged
+96296,Fetid Corruption,58,0,Added,Factual record; authored route unchanged
+96301,Power Wash,60,0,Added,Factual record; authored route unchanged
+96302,Arch Absolution,60,0,Added,Factual record; authored route unchanged
+96303,Memory Mist,60,0,Added,Factual record; authored route unchanged
+96321,The Dying God,58,0,Added,Factual record; authored route unchanged
+96322,A Revenge Now Bitter,58,0,Added,Factual record; authored route unchanged
+96332,A Little Payback,53,48,Added,Factual record; authored route unchanged
+96334,Blood Red Bandanas,53,48,Added,Factual record; authored route unchanged
+96335,The Man in the Iron Chains,53,0,Excluded,No starter or finisher data
+96337,More Valuable Than Gold,53,0,Added,Factual record; authored route unchanged
+96369,Bad News for Folkar,53,48,Excluded,No starter or finisher data
+96376,State Secrets,53,48,Added,Factual record; authored route unchanged
+96377,State Secrets,53,48,Added,Factual record; authored route unchanged
+96379,State Secrets,,0,Added,Factual record; authored route unchanged
+96381,A Bit of Wet Work,53,48,Added,Factual record; authored route unchanged
+96435,A Fitting End,58,0,Added,Factual record; authored route unchanged
+96438,Battle at the Mannoroc Coven,40,35,Added,Factual record; authored route unchanged
+96449,Aeonas's Secret Refuge,40,35,Added,Factual record; authored route unchanged
+96476,In Search of Aeonas,53,45,Excluded,No starter or finisher data
+96494,Gathering Storm,59,54,Added,Factual record; authored route unchanged
+96529,A Shaw Deal,59,54,Added,Factual record; authored route unchanged
+96550,Battle Recall,58,0,Added,Factual record; authored route unchanged
+96558,Soldier's Solace,60,0,Added,Factual record; authored route unchanged
+96559,Supply Drop,57,54,Added,Factual record; authored route unchanged
+96561,Last Wishes,60,0,Added,Factual record; authored route unchanged
+96602,More Unstable Magic,,0,Added,Factual record; authored route unchanged
+96603,Unstable Magic,60,48,Added,Factual record; authored route unchanged
+96609,A Taste of Home,52,44,Added,Factual record; authored route unchanged
+96616,Herbs for the Bruised and Weary,57,54,Added,Factual record; authored route unchanged
+96622,A Rest Without Pain,57,54,Added,Factual record; authored route unchanged
+96666,Burrow Bonding,57,0,Added,Factual record; authored route unchanged
+96674,Ewe Wandered Off,56,54,Added,Factual record; authored route unchanged
+96676,Unsealing Blackthorne Pact,59,54,Excluded,No starter or finisher data
+96770,The Witch Doctor's Head,46,39,Added,Factual record; authored route unchanged
+96771,Vengeance of the Highborne,45,37,Added,Factual record; authored route unchanged
+96772,The Dragon's Journal,53,46,Added,Factual record; authored route unchanged
+96773,The Coldbringer's Eye,41,34,Added,Factual record; authored route unchanged
+96775,Zum'rah's Head,46,42,Added,Factual record; authored route unchanged
+96776,An'she's Radiance,51,43,Added,Factual record; authored route unchanged
+96796,Woods Workshop,56,0,Added,Factual record; authored route unchanged
+96797,The Orphan,54,45,Added,Factual record; authored route unchanged
+96798,Into the Darkness,54,45,Added,Factual record; authored route unchanged
+96799,A Heavy Responsibility,54,45,Added,Factual record; authored route unchanged
+96811,Escaping the Shadows,54,45,Added,Factual record; authored route unchanged
+96812,Thicker Than Water,54,45,Added,Factual record; authored route unchanged
+96830,Farsight Guided,57,0,Added,Factual record; authored route unchanged
+96833,Venom Maws,56,0,Added,Factual record; authored route unchanged
+96912,Field of Honor: Week 1,60,0,Added,Factual record; authored route unchanged
+96930,The Capricious Corvid,58,0,Added,Factual record; authored route unchanged
+96931,Heading Up the Mountain,58,0,Added,Factual record; authored route unchanged
+96939,The Balance of Life and Death,58,0,Added,Factual record; authored route unchanged
+96957,Bone Sweet Bone,58,0,Added,Factual record; authored route unchanged
+96959,Blademaster's Bonfires,59,0,Added,Factual record; authored route unchanged
+96964,A Clever Creature,59,0,Added,Factual record; authored route unchanged
+96971,To Outfox a Demon,59,0,Added,Factual record; authored route unchanged
+96978,Violent Venison,57,0,Added,Factual record; authored route unchanged
+96979,Sacred Refreshment,57,0,Added,Factual record; authored route unchanged
+96982,Your First Riding Kodo,40,40,Added,Factual record; authored route unchanged
+96983,Yashiro's Windwalk,60,0,Added,Factual record; authored route unchanged
+96989,Your First Riding Raptor,40,40,Added,Factual record; authored route unchanged
+96991,Trail Assist,59,0,Added,Factual record; authored route unchanged
+96992,Resupply,57,54,Added,Factual record; authored route unchanged
+96994,Your First Riding Wolf,40,40,Added,Factual record; authored route unchanged
+96996,Your First Riding Galestrider,40,40,Added,Factual record; authored route unchanged
+96997,A Steed in Death as They Were in Life,40,40,Added,Factual record; authored route unchanged
+96998,Tribal Colors,58,54,Added,Factual record; authored route unchanged
+96999,Wrap Return,58,54,Added,Factual record; authored route unchanged
+97000,Grain of Memory,57,54,Added,Factual record; authored route unchanged
+97001,Sawyer's Legacy,57,54,Excluded,No starter or finisher data
+97006,Notarized Claim,60,54,Excluded,No starter or finisher data
+97007,Wood Remains,57,54,Excluded,No starter or finisher data
+97009,Maerion's Misery,59,0,Added,Factual record; authored route unchanged
+97010,Blind Vengeance,59,0,Added,Factual record; authored route unchanged
+97017,Your First Riding Ram,40,40,Added,Factual record; authored route unchanged
+97018,Learning to Ride,40,40,Added,Factual record; authored route unchanged
+97022,Report to Danitha,40,40,Added,Factual record; authored route unchanged
+97029,Eluvi'ana,-1,1,Added,Factual record; authored route unchanged
+97045,Your First Horse,40,40,Added,Factual record; authored route unchanged
+97046,Your First Mechanostrider,40,40,Added,Factual record; authored route unchanged
+97049,Essence of Seeping Slimes,60,55,Added,Factual record; authored route unchanged
+97074,Learning to Ride,40,40,Added,Factual record; authored route unchanged
+97119,Now We're Cooking,57,54,Added,Factual record; authored route unchanged
+97130,Ancient Gurubashi Secrets,40,34,Added,Factual record; authored route unchanged
+97168,Material Assistance,60,58,Excluded,No starter or finisher data
+97170,Learning to Ride,40,40,Added,Factual record; authored route unchanged
+97171,Your First Horse,40,40,Excluded,No starter or finisher data
+97173,Blackmaw Magic,59,52,Added,Factual record; authored route unchanged
+97174,A Worthy Endeavor,60,60,Excluded,No starter or finisher data
+97175,Due Sacrifice,60,60,Excluded,No starter or finisher data
+97176,,60,0,Excluded,No usable quest name
+97177,Acts of Mercy,60,60,Excluded,No starter or finisher data
+97178,Ott of Tarren Mill,60,0,Excluded,No starter or finisher data
+97179,Collection of Goods,60,60,Excluded,No starter or finisher data
+97188,Learning to Ride,40,40,Added,Factual record; authored route unchanged
+97194,Learning to Ride,40,40,Added,Factual record; authored route unchanged
+97196,The Coldbringer's Eye,41,34,Added,Factual record; authored route unchanged
+97197,Fragment of the Firelands,55,46,Added,Factual record; authored route unchanged
+97198,Blackmaw Magic,59,52,Added,Factual record; authored route unchanged
+97200,Learning to Ride,40,40,Added,Factual record; authored route unchanged
+97203,Learning to Ride,40,40,Added,Factual record; authored route unchanged
+97204,Learning to Ride,40,40,Added,Factual record; authored route unchanged
+97205,Learning to Ride,40,40,Added,Factual record; authored route unchanged
+97264,Shardtooth Pulling,58,55,Excluded,No starter or finisher data
+97271,,,0,Excluded,No usable quest name
+97319,A Cousin Abroad,55,55,Added,Factual record; authored route unchanged
+97327,Blackmaw Pouches,60,0,Added,Factual record; authored route unchanged
+97332,Twice Misplaced Trust,41,36,Added,Factual record; authored route unchanged
+97378,Mirrorscale,50,0,Added,Factual record; authored route unchanged
+97386,The Offense of Grom'gol,44,38,Added,Factual record; authored route unchanged
+97403,Two-Headed Ravagers,59,55,Excluded,No starter or finisher data
+97404,Too Bad to Bear,59,55,Excluded,No starter or finisher data
+97405,Noise Complaints,44,38,Added,Factual record; authored route unchanged
+97411,An Earnest Proposition,60,58,Excluded,No starter or finisher data
+97446,Your First Riding Kodo,40,40,Excluded,No starter or finisher data
+97447,An Earnest Proposition,60,58,Excluded,No starter or finisher data
+97453,Weed Whacked,38,33,Added,Factual record; authored route unchanged
+97490,Halt the Hail,60,0,Added,Factual record; authored route unchanged
+97530,Dunemaul Dues,47,40,Added,Factual record; authored route unchanged
+97534,Gritty Business,45,40,Added,Factual record; authored route unchanged
+97536,Gnomish Garbage,45,40,Added,Factual record; authored route unchanged
+97540,Oasis,50,0,Added,Factual record; authored route unchanged
+97617,Safety Checks,40,35,Added,Factual record; authored route unchanged
+97663,Supplies and Studies,40,0,Added,Factual record; authored route unchanged
+97821,Mirage Mirror,42,0,Added,Factual record; authored route unchanged
+97883,End of the Dark Horde,60,0,Excluded,No starter or finisher data
+97884,Armory of Sunnyglade,40,36,Added,Factual record; authored route unchanged
+97986,Argent Arbiter,57,0,Added,Factual record; authored route unchanged
+97987,Stormwind's High Order,57,53,Added,Factual record; authored route unchanged
+97988,Orgrimmar's Windshapers,57,53,Excluded,No starter or finisher data
+98096,Sisters In Duty,47,0,Added,Factual record; authored route unchanged
+98109,Bleeding Edge,57,0,Added,Factual record; authored route unchanged
+98166,Your First Horse,40,40,Excluded,No starter or finisher data
+98192,"Skin Careful, Skin Sharp",43,38,Added,Factual record; authored route unchanged
+98203,Witch Doctor Ti'ik,49,45,Added,Factual record; authored route unchanged
+98205,Whelps are the Worst!,44,0,Added,Factual record; authored route unchanged
+98215,"Dragon Scales, Post Burnt Tails",44,0,Added,Factual record; authored route unchanged
+98231,Active Ingredient,44,0,Added,Factual record; authored route unchanged
+98233,Sword in the Slime,42,36,Added,Factual record; authored route unchanged
+98325,Blood and Thunder,60,55,Added,Factual record; authored route unchanged
+98462,Shroud of the Winter Wilds,60,0,Added,Factual record; authored route unchanged
+98476,More Unstable Magic,,0,Added,Factual record; authored route unchanged
+98477,Unstable Magic,60,48,Added,Factual record; authored route unchanged
+98890,Conflict at Darkspear Islands,49,40,Added,Factual record; authored route unchanged
+98898,,,0,Excluded,No usable quest name
+99187,The Reliquary of Tyr,58,50,Excluded,No starter or finisher data
+99193,A Donation of Mageweave,60,40,Added,Factual record; authored route unchanged
+99194,A Donation of Runecloth,60,50,Added,Factual record; authored route unchanged
+99195,Additional Runecloth,60,50,Added,Factual record; authored route unchanged
+99198,A Donation of Mageweave,60,40,Added,Factual record; authored route unchanged
+99199,A Donation of Runecloth,60,50,Added,Factual record; authored route unchanged
+99200,Additional Runecloth,60,50,Added,Factual record; authored route unchanged
+99204,,60,0,Excluded,No usable quest name
+99205,Swift as the Wind,60,60,Added,Factual record; authored route unchanged
+99207,Swift as the Wind,60,60,Excluded,No starter or finisher data
+99208,Swift as the Wind,60,60,Excluded,No starter or finisher data
+99209,Swift as the Wind,60,60,Excluded,No starter or finisher data
+99233,Brawl at the Maul,60,0,Excluded,No starter or finisher data
+99257,A Heart of Crystal,43,0,Added,Factual record; authored route unchanged
+99258,Mana Mania,43,0,Added,Factual record; authored route unchanged
+99326,Your First Horse,40,40,Excluded,No starter or finisher data
+99435,The Great Masquerade,60,0,Excluded,No starter or finisher data
+99670,Return to Jereman,60,0,Added,Factual record; authored route unchanged

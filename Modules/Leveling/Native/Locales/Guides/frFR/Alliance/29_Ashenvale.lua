@@ -1,0 +1,20 @@
+local _WTF=assert(_G.WTFDudeSuiteRuntime)
+local function _load(...)
+local _, HP = ...
+local Ding = HP.Native
+if Ding.locale ~= "frFR" then return end -- Skip inactive-language allocations.
+-- French text of Guides/Alliance/29_Ashenvale.lua: [English text] = French text.
+-- Written by tools/translate_guides.lua from tools/routes/locales/frFR.lua.
+Ding.RegisterGuideTranslation("frFR", "alliance-29-ashenvale", {
+    ["Ashenvale (27-31)"] =
+        "Orneval (27-31)",
+    ["Back to Astranaar for the last Ashenvale quests. Finish the level on nearby monsters before moving on."] =
+        "Retour à Astranaar pour les quêtes de fin d'Orneval. Finis le niveau sur les monstres du coin avant la suite.",
+    ["Finish the level on nearby monsters before moving on."] =
+        "Finis le niveau sur les monstres du coin avant la suite.",
+    ["Auberdine"] =
+        "Auberdine",
+})
+
+end
+_load('WTFDudeSuite',_WTF)

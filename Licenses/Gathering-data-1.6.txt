@@ -1,0 +1,16 @@
+WTF! DUDE SUITE gathering reference locations
+
+The existing 16,292 herb/ore positions use the sources documented by earlier Suite releases.
+Fishing additions are factual pool names and coordinates derived from:
+- The Suite's QuestieDB Forever object database. See QuestieDB-1.1.1-LICENSE.md and Ding-DB-CREDITS.md.
+- E1ila/GatherMate2_Data, commit 6318709d206554f0b131568a2fecfd2539ef6fa0, FishData.lua.
+  https://github.com/E1ila/GatherMate2_Data/blob/6318709d206554f0b131568a2fecfd2539ef6fa0/FishData.lua
+  Based on Spinx GatherMate2_Data (Classic).
+- Nevcairiel/GatherMate2 node identifiers. This release uses factual node-name mappings, with newly written runtime code.
+
+Gatherer drawing/history logic and the Gatherer-Elysium database were reviewed. Elysium spawn coordinates were excluded because they describe a different server.
+Classic positions were excluded for known changed map frames and when the same resource/map already has native Forever positions.
+See GATHERING-DATA-1.6.json for the imported data hash, counts and map coverage.
+No external gathering addon is required.
+
+Media/Killshot.wav in WTFDude_Community is an original synthesized asset created for WTF! DUDE SUITE.

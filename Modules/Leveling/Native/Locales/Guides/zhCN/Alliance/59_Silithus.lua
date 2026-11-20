@@ -1,0 +1,20 @@
+local _WTF=assert(_G.WTFDudeSuiteRuntime)
+local function _load(...)
+local _, HP = ...
+local Ding = HP.Native
+if Ding.locale ~= "zhCN" then return end -- Skip inactive-language allocations.
+-- Simplified Chinese text of Guides/Alliance/59_Silithus.lua: [English text] = Simplified Chinese text.
+-- Written by tools/translate_guides.lua from tools/routes/locales/zhCN.lua.
+Ding.RegisterGuideTranslation("zhCN", "alliance-59-silithus", {
+    ["Silithus (56-60)"] =
+        "希利苏斯 (56-60)",
+    ["Silithus is south of Un'Goro Crater: Cenarion Hold is in the north of the zone."] =
+        "希利苏斯在安戈洛环形山以南：塞纳里奥要塞在该区域北部。",
+    ["Cenarion Hold"] =
+        "塞纳里奥要塞",
+    ["Finish the level on nearby monsters before moving on."] =
+        "先在附近打怪升完这一级再继续。",
+})
+
+end
+_load('WTFDudeSuite',_WTF)

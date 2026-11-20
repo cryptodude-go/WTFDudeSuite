@@ -1,0 +1,20 @@
+local _WTF=assert(_G.WTFDudeSuiteRuntime)
+local function _load(...)
+local _, HP = ...
+local Ding = HP.Native
+if Ding.locale ~= "ptBR" then return end -- Skip inactive-language allocations.
+-- Brazilian Portuguese text of Guides/Alliance/59_Silithus.lua: [English text] = Brazilian Portuguese text.
+-- Written by tools/translate_guides.lua from tools/routes/locales/ptBR.lua.
+Ding.RegisterGuideTranslation("ptBR", "alliance-59-silithus", {
+    ["Silithus (56-60)"] =
+        "Silithus (56-60)",
+    ["Silithus is south of Un'Goro Crater: Cenarion Hold is in the north of the zone."] =
+        "Silithus fica ao sul da Cratera Un'Goro: o Forte Cenariano está no norte da zona.",
+    ["Cenarion Hold"] =
+        "Forte Cenariano",
+    ["Finish the level on nearby monsters before moving on."] =
+        "Termine o nível nos monstros próximos antes de seguir.",
+})
+
+end
+_load('WTFDudeSuite',_WTF)

@@ -1,0 +1,48 @@
+<Bindings>
+    <Binding name="DWMGDING_NEXT" header="DWMGDING" category="ADDONS">
+        WTFDudeSuite.Engine:Next()
+    </Binding>
+    <Binding name="DWMGDING_PREV" category="ADDONS">
+        WTFDudeSuite.Engine:Prev()
+    </Binding>
+    <Binding name="DWMGDING_TOGGLE" category="ADDONS">
+        WTFDudeSuite.Panel:Toggle()
+    </Binding>
+    <Binding name="DWMGDING_CONFIG" category="ADDONS">
+        WTFDudeSuite.Config:Toggle()
+    </Binding>
+    <Binding name="DWMGDING_COMPACT" category="ADDONS">
+        WTFDudeSuite.Panel:ToggleCompact()
+    </Binding>
+    <Binding name="DWMGDING_FOCUS" category="ADDONS">
+        WTFDudeSuite.Panel:ToggleFocus()
+    </Binding>
+    <Binding name="DWMGDING_SKIP" category="ADDONS">
+        WTFDudeSuite.Engine:Skip()
+    </Binding>
+    <Binding name="DWMGDING_UNSKIP" category="ADDONS">
+        WTFDudeSuite.Panel:BackToSkipped()
+    </Binding>
+    <Binding name="DWMGDING_FINDER" category="ADDONS">
+        WTFDudeSuite.Finder:Toggle()
+    </Binding>
+    <Binding name="DWMGDING_CYCLE" category="ADDONS">
+        WTFDudeSuite.Panel:CycleTarget()
+    </Binding>
+    <Binding name="DWMGDING_REPORT" category="ADDONS">
+        WTFDudeSuite.ReportWindow:Toggle()
+    </Binding>
+    <Binding name="CLICK DudeDingItemButton:LeftButton" category="ADDONS"/>
+    <Binding name="CLICK DudeDingItemButton:Target" category="ADDONS"/>
+    <Binding name="DWMG_DING_PAUSE" category="ADDONS">WTFDudeSuite.TogglePause()</Binding>
+    <Binding name="CLICK DudeDingGroupMark:LeftButton" category="ADDONS"/>
+    <Binding name="CLICK DudeDingMarkIcon8:LeftButton" category="ADDONS"/>
+    <Binding name="CLICK DudeDingMarkIcon7:LeftButton" category="ADDONS"/>
+    <Binding name="CLICK DudeDingMarkIcon5:LeftButton" category="ADDONS"/>
+    <Binding name="CLICK DudeDingMarkIcon6:LeftButton" category="ADDONS"/>
+    <Binding name="CLICK DudeDingMarkIcon4:LeftButton" category="ADDONS"/>
+    <Binding name="CLICK DudeDingMarkIcon3:LeftButton" category="ADDONS"/>
+    <Binding name="CLICK DudeDingMarkIcon2:LeftButton" category="ADDONS"/>
+    <Binding name="CLICK DudeDingMarkIcon1:LeftButton" category="ADDONS"/>
+    <Binding name="CLICK DudeDingClearMarks:LeftButton" category="ADDONS"/>
+</Bindings>

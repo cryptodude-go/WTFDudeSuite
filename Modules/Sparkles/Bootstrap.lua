@@ -1,0 +1,3 @@
+local _,ns=...
+local HP=assert(_G.WTFDudeSuiteRuntime,'WTF! DUDE Core is required')
+HP.loadedModules['sparkles']=true

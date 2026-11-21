@@ -24,6 +24,9 @@ function Q:Counts()
         end
     end
     local maximum = HP.Call(api.GetMaxNumQuestsCanAccept)
+    if not number(maximum) or maximum < 1 then
+        maximum = Constants and Constants.QuestLogConsts and Constants.QuestLogConsts.MAXIMUM_NUM_QUESTS_LOG_CAN_ACCEPT
+    end
     if not number(maximum) or maximum < 1 then maximum = MAX_QUESTLOG_QUESTS end
     if not number(maximum) or maximum < 1 then maximum = 40 end
     return number(count) and math.floor(count) or nil, math.floor(maximum)
@@ -37,6 +40,12 @@ end
 function Q:Update()
     local map = WorldMapFrame
     if not map or not D.db or not HP.Suite:On("suite") or D.db.ui.mapQuestCounter == false or not map:IsShown() then
+        if self.badge then self.badge:Hide() end
+        return
+    end
+    -- Leatrix's simple frame already supplies its own live quest counter in the title bar.
+    local leatrix = HP.Call(C_AddOns and C_AddOns.IsAddOnLoaded or IsAddOnLoaded, "Leatrix_Maps")
+    if leatrix and type(LeaMapsDB) == "table" and LeaMapsDB.SimpleMapFrame == "On" then
         if self.badge then self.badge:Hide() end
         return
     end

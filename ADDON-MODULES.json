@@ -2023,6 +2023,7 @@
     "files": [
       "Modules/Gathering/Bootstrap.lua",
       "Modules/Gathering/FishingData.lua",
+      "Modules/Gathering/ForeverNodeData.lua",
       "Modules/Gathering/MapNodes.lua",
       "Modules/Gathering/Core/GatheringSkills.lua"
     ],

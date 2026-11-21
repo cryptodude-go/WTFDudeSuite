@@ -257,7 +257,7 @@ function extras.build(canvas,width)
  for id in pairs(HP.gatherSeeds) do local info=HP.Call(C_Map and C_Map.GetMapInfo,id);maps[#maps+1]={value=id,label=info and info.name or ('Zone '..id)} end
  table.sort(maps,function(a,b) return tostring(a.value)=='auto' or tostring(b.value)~='auto' and a.label<b.label end)
  rows[#rows+1]=drop(canvas,width,'Gathering zone',maps,'gatherZone')
- local function resources() local list={{value='auto',label='All resources for my skill'}};for id,b in pairs(HP.gatherNodeInfo) do if b.kind==HP.db.professionGuide then list[#list+1]={value=id,label=b.name} end end;return list end
+ local function resources() local list={{value='auto',label='All resources for my skill'}};for id,b in pairs(HP.gatherNodeInfo) do if b.kind==HP.db.professionGuide and not b.referenceOnly then list[#list+1]={value=id,label=b.name} end end;return list end
  rows[#rows+1]=drop(canvas,width,'Resource',resources,'gatherResource',function(v) if v=='auto' then HP.db.gatherResource=nil end;HP.InvalidateGathering();HP.Refresh() end)
  rows[#rows+1]=check(canvas,width,'Show known and gathered nodes','gatherShowNodes','Herbs are lime, ore is gold, fishing pools are blue; your gathered spots are green.',true)
  rows[#rows+1]=check(canvas,width,'Remember gathered nodes','gatherRecord','Keep harvesting history per character.',true)

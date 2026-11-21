@@ -14,10 +14,11 @@ function HP.DrawGatherCircles(f,map,task,w,h,project)
  f.nodes=f.nodes or {}
  if HP.db.gatherShowNodes==false then for _,b in ipairs(f.nodes)do b:Hide()end;f.renderWidth=nil;return end
  local source=task.displayAll and HP.GatherDisplayNodes(map,task.allProfessions) or HP.GatherMapNodes(map,task)
+ local iconScale=not project and task.displayAll and HP.GatherWorldIconScale(f)or 1
  local key=task.book.name..':'..tostring(map)..':'..tostring(HP.gatherRevision or 0)
- if not project and f.nodeSource==source and f.nodeKey==key and f.renderWidth==w and f.renderHeight==h then return end
+ if not project and f.nodeSource==source and f.nodeKey==key and f.renderWidth==w and f.renderHeight==h and f.renderScale==iconScale then return end
  for _,b in ipairs(f.nodes)do b:Hide()end
- f.renderWidth=not project and w or nil;f.renderHeight=not project and h or nil
+ f.renderWidth=not project and w or nil;f.renderHeight=not project and h or nil;f.renderScale=iconScale
  local nodes=f.nodeList
  if not nodes or f.nodeSource~=source or f.nodeKey~=key then
  nodes={};for _,p in ipairs(source) do nodes[#nodes+1]=p end
@@ -47,6 +48,8 @@ function HP.DrawGatherCircles(f,map,task,w,h,project)
      GameTooltip:AddLine((self.node.observed and 'Gathered by you' or self.node.source)..' · possible location',.8,.9,.7,true)
      if info and info.kind=='Fishing' then
       GameTooltip:AddLine('Fishing pool · cast from a reachable shoreline.',1,.85,.4,true)
+     elseif info and info.referenceOnly then
+      GameTooltip:AddLine(self.profession..' · check the live node for its skill requirement.',1,.85,.4,true)
      else
       GameTooltip:AddLine('Requires '..self.profession..' '..(info and info.min or '?'),1,.85,.4)
      end
@@ -59,7 +62,7 @@ function HP.DrawGatherCircles(f,map,task,w,h,project)
      else HP.manualWaypoint={mapID=self.node.mapID,x=self.node.x,y=self.node.y};HP.Refresh() end
     end)
    end
-   b.node=p;b.profession=(HP.gatherNodeInfo[p.id] or {}).kind or task.book.name;b:ClearAllPoints();b:SetPoint('CENTER',f,'TOPLEFT',x,y);local color=colors[p.observed and 'observed' or b.profession] or colors.Mining
+   b.node=p;b.profession=(HP.gatherNodeInfo[p.id] or {}).kind or task.book.name;b:SetScale(iconScale);b:ClearAllPoints();b:SetPoint('CENTER',f,'TOPLEFT',x/iconScale,y/iconScale);local color=colors[p.observed and 'observed' or b.profession] or colors.Mining
    b.icon:SetVertexColor(color[1],color[2],color[3],1);b:Show()
   end
  end
@@ -103,8 +106,16 @@ function HP.UpdateGatherWorldNodes()
  local canvas=WorldMapFrame and HP.MapCanvas(WorldMapFrame)
  if not t or not canvas or not WorldMapFrame:IsShown() or HP.db.gatherShowNodes==false or HP.db.gatherWorldNodes==false then return end
  local map=HP.Call(WorldMapFrame.GetMapID,WorldMapFrame);if not map then return end
+ local width=HP.Call(canvas.GetWidth,canvas);local height=HP.Call(canvas.GetHeight,canvas)
+ if type(width)~='number'or type(height)~='number'or width<=0 or height<=0 then return end
  local f=worlds[canvas];if not f then f=CreateFrame('Frame',nil,canvas);worlds[canvas]=f;f:SetAllPoints(canvas);f:SetFrameLevel(canvas:GetFrameLevel()+22);f:EnableMouse(false) end
- HP.gatherWorldNodesFrame=f;f:Show();HP.DrawGatherCircles(f,map,t,canvas:GetWidth(),canvas:GetHeight())
+ local strata=HP.Call(WorldMapFrame.GetFrameStrata,WorldMapFrame)or 'HIGH'
+ local leatrix=HP.Call(C_AddOns and C_AddOns.IsAddOnLoaded or IsAddOnLoaded,'Leatrix_Maps')
+ if leatrix and (strata=='BACKGROUND'or strata=='LOW'or strata=='MEDIUM')then strata='HIGH'end
+ if HP.Call(f.GetFrameStrata,f)~=strata then f:SetFrameStrata(strata)end
+ local level=math.max(canvas:GetFrameLevel(),WorldMapFrame:GetFrameLevel())+40
+ if f:GetFrameLevel()~=level then f:SetFrameLevel(level)end
+ HP.gatherWorldNodesFrame=f;f:Show();HP.DrawGatherCircles(f,map,t,width,height)
 end
 local create=HP.CreateUI
 function HP.CreateUI()

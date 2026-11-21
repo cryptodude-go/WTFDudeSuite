@@ -14,3 +14,7 @@ See GATHERING-DATA-1.6.json for the imported data hash, counts and map coverage.
 No external gathering addon is required.
 
 Media/Killshot.wav in WTFDude_Community is an original synthesized asset created for WTF! DUDE SUITE.
+
+Update 1.9.1 uses the Forever-specific factual coordinates from Nevcairiel/GatherMate2_Data, commit 29fe725eb9ab1c71d08025f47f94bb10043ed1cf.
+https://github.com/Nevcairiel/GatherMate2_Data/tree/29fe725eb9ab1c71d08025f47f94bb10043ed1cf/forever
+The current mining/herbalism reference replaces legacy points on maps covered by this source. See GATHERING-DATA-1.9.1.json for counts and hashes.

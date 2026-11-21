@@ -2,7 +2,7 @@
 ## Title: WTF! DUDE SUITE
 ## OptionalDeps: DudeWheresMyGuild, TomTom
 ## Notes: Modular leveling, professions, gathering, reputation, navigation, sparkles, group marks, ignore filtering, rare alerts and travel tools for WoW Forever.
-## Version: 1.9
+## Version: 1.9.1
 ## X-License: GPL-3.0
 ## X-Website: https://github.com/cryptodude-go/WTFDudeSuite
 ## SavedVariables: DudeWheresMyDingNativeDB
@@ -2152,6 +2152,7 @@ Modules/Reputation/Bootstrap.lua
 # Gathering
 Modules/Gathering/Bootstrap.lua
 Modules/Gathering/FishingData.lua
+Modules/Gathering/ForeverNodeData.lua
 Modules/Gathering/MapNodes.lua
 Modules/Gathering/Core/GatheringSkills.lua
 

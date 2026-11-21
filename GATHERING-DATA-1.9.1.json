@@ -1,0 +1,101 @@
+{
+  "source": {
+    "repository": "Nevcairiel/GatherMate2_Data",
+    "commit": "29fe725eb9ab1c71d08025f47f94bb10043ed1cf",
+    "files": [
+      "forever/HerbalismData.lua",
+      "forever/MiningData.lua",
+      "README.md",
+      ".pkgmeta"
+    ]
+  },
+  "herbPositions": 10858,
+  "orePositions": 5667,
+  "resourceZones": 46,
+  "RivergladesPositions": 193,
+  "zoneCounts": {
+    "1411": 492,
+    "1412": 825,
+    "1413": 989,
+    "1416": 316,
+    "1417": 419,
+    "1418": 210,
+    "1419": 139,
+    "1420": 504,
+    "1421": 420,
+    "1422": 226,
+    "1423": 410,
+    "1424": 365,
+    "1425": 362,
+    "1426": 472,
+    "1427": 128,
+    "1428": 197,
+    "1429": 433,
+    "1431": 320,
+    "1432": 351,
+    "1433": 504,
+    "1434": 724,
+    "1435": 317,
+    "1436": 395,
+    "1437": 526,
+    "1438": 392,
+    "1439": 408,
+    "1440": 562,
+    "1441": 306,
+    "1442": 390,
+    "1443": 403,
+    "1444": 474,
+    "1445": 345,
+    "1446": 285,
+    "1447": 458,
+    "1448": 273,
+    "1449": 257,
+    "1451": 233,
+    "1452": 352,
+    "1453": 19,
+    "1454": 15,
+    "1455": 13,
+    "1456": 8,
+    "2482": 116,
+    "2521": 922,
+    "2548": 193,
+    "2652": 57
+  },
+  "displayOnlyResources": {
+    "-218": {
+      "name": "Lesser Bloodstone Deposit",
+      "kind": "Mining",
+      "min": 0,
+      "referenceOnly": true
+    },
+    "-4201": {
+      "name": "Heavy Thorium Vein",
+      "kind": "Mining",
+      "min": 0,
+      "referenceOnly": true
+    },
+    "-219": {
+      "name": "Incendicite Mineral Vein",
+      "kind": "Mining",
+      "min": 0,
+      "referenceOnly": true
+    },
+    "-4401": {
+      "name": "Demonsage",
+      "kind": "Herbalism",
+      "min": 0,
+      "referenceOnly": true
+    },
+    "-416": {
+      "name": "Wintersbite",
+      "kind": "Herbalism",
+      "min": 0,
+      "referenceOnly": true
+    }
+  },
+  "sourceHashes": {
+    "GatherMate2_Data-forever-HerbalismData.lua": "dd2adc8bccc6aedf5e461fbe6bcde7330d841e102da9b5ffe16d2f9d5c957c9a",
+    "GatherMate2_Data-forever-MiningData.lua": "32875fd2c4856861045efcb75d025cfb7c11867bc499f4b2e4f4087906fe9c02",
+    "GatherMate2-Constants.lua": "61b04d9c4f95713a597d1711fe92d0f540da240c946bb0210522edea866ab738"
+  }
+}

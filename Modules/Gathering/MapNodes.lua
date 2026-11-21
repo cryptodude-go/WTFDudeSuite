@@ -13,6 +13,18 @@ function HP.HasGatherDisplay(allProfessions)
     return false
 end
 
+
+function HP.GatherWorldIconScale(overlay)
+    local mapScale=HP.Call(WorldMapFrame and WorldMapFrame.GetEffectiveScale,WorldMapFrame)
+    local canvasScale=HP.Call(overlay.GetEffectiveScale,overlay)
+    if type(mapScale)=='number'and type(canvasScale)=='number'and mapScale>0 and canvasScale>0 then
+        return math.max(.05,math.min(20,mapScale/canvasScale))
+    end
+    local zoom=HP.Call(WorldMapFrame and WorldMapFrame.GetCanvasScale,WorldMapFrame)
+    if type(zoom)=='number'and zoom>0 then return math.max(.05,math.min(20,1/zoom))end
+    return 1
+end
+
 function HP.GatherDisplayNodes(map, allProfessions)
     if not map or not HP.db then return {} end
     local professions = HP.ProfessionSkills()

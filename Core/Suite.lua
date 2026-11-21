@@ -7,7 +7,7 @@ local C,UI=D.Config,D.UI
 for _,key in ipairs({'spam','rares'})do
  if not C.TAB[key]then C.TABS[#C.TABS+1]={key=key,label=key,build=function()return {}end,pad=UI.SIZE.pad,gap=UI.SIZE.gap};C.TAB[key]=#C.TABS end
 end
-local S={version=D.version~='dev'and D.version or '1.8'};HP.Suite=S
+local S={version=D.version~='dev'and D.version or '1.9'};HP.Suite=S
 D.TITLE='WTF! DUDE SUITE'
 local function native(key)
  if key=='marking' then return HP.GroupMarks:DB() end

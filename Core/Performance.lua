@@ -16,7 +16,8 @@ function P:Reconcile()
  if not HP.db or not D.db then return end
  local route=HP.auxiliaryActive and not HP.db.hidden and not HP.db.paused and (HP.db.professionGuide=='Mining'or HP.db.professionGuide=='Herbalism')
  local display=HP.HasGatherDisplay and HP.HasGatherDisplay()
- local maps=enabled('gathering')and (route or display and (HP.db.gatherMinimapNodes~=false or HP.db.gatherWorldNodes~=false and WorldMapFrame and WorldMapFrame:IsShown()))
+ local worldDisplay=HP.HasGatherDisplay and HP.HasGatherDisplay(HP.db.gatherWorldAllProfessions~=false)
+ local maps=enabled('gathering')and (route or display and HP.db.gatherMinimapNodes~=false or worldDisplay and HP.db.gatherWorldNodes~=false and WorldMapFrame and WorldMapFrame:IsShown())
  self:Driver(HP.gatherTicker,maps,function()HP.UpdateGatherWorldNodes();HP.DrawGatherMinimap()end)
  self:Driver(HP.liveGatherDriver,enabled('gathering')and HP.db.liveGatherEnabled==true,function()
   if HP.liveGathering.target or HP.liveGathering.scan then HP.LiveGatherTick()end

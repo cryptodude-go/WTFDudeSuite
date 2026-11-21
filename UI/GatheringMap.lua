@@ -11,10 +11,13 @@ function HP.DrawGatherCircuit(f,route,w,h)
  for i=2,#route.points do line(f,i-1,{x=route.points[i-1][1],y=route.points[i-1][2]},{x=route.points[i][1],y=route.points[i][2]},w,h) end
 end
 function HP.DrawGatherCircles(f,map,task,w,h,project)
- f.nodes=f.nodes or {};for _,b in ipairs(f.nodes) do b:Hide() end
- if HP.db.gatherShowNodes==false then return end
- local source=task.displayAll and HP.GatherDisplayNodes(map) or HP.GatherMapNodes(map,task)
+ f.nodes=f.nodes or {}
+ if HP.db.gatherShowNodes==false then for _,b in ipairs(f.nodes)do b:Hide()end;f.renderWidth=nil;return end
+ local source=task.displayAll and HP.GatherDisplayNodes(map,task.allProfessions) or HP.GatherMapNodes(map,task)
  local key=task.book.name..':'..tostring(map)..':'..tostring(HP.gatherRevision or 0)
+ if not project and f.nodeSource==source and f.nodeKey==key and f.renderWidth==w and f.renderHeight==h then return end
+ for _,b in ipairs(f.nodes)do b:Hide()end
+ f.renderWidth=not project and w or nil;f.renderHeight=not project and h or nil
  local nodes=f.nodeList
  if not nodes or f.nodeSource~=source or f.nodeKey~=key then
  nodes={};for _,p in ipairs(source) do nodes[#nodes+1]=p end
@@ -32,7 +35,7 @@ function HP.DrawGatherCircles(f,map,task,w,h,project)
  for _,p in ipairs(nodes) do
   local x,y
   if project then x,y=project(p) else x,y=p.x*w,-p.y*h end
-  if x and y then count=count+1;if count>(project and 160 or 2000) then break end
+  if x and y then count=count+1;if project and count>160 then break end
    local b=f.nodes[count]
    if not b then
     b=CreateFrame('Button',nil,f);f.nodes[count]=b;b:SetSize(13,13)
@@ -61,10 +64,11 @@ function HP.DrawGatherCircles(f,map,task,w,h,project)
   end
  end
 end
-local function context()
+local function context(world)
  if not HP.db or HP.Suite and not HP.Suite:On('gathering') or HP.db.gatherShowNodes==false then return end
- if HP.HasGatherDisplay and not HP.HasGatherDisplay()then return end
- return {book={name='All'},displayAll=true}
+ local all=world and HP.db.gatherWorldAllProfessions~=false
+ if HP.HasGatherDisplay and not HP.HasGatherDisplay(all)then return end
+ return {book={name='All'},displayAll=true,allProfessions=all}
 end
 local build=HP.BuildGatherMap
 function HP.BuildGatherMap(p,map,x,y,task)
@@ -95,12 +99,12 @@ end
 local worlds={}
 function HP.UpdateGatherWorldNodes()
  for _,f in pairs(worlds) do f:Hide() end
- local t=context();HP.gatherVisibleTask=t
+ local t=context(true)
  local canvas=WorldMapFrame and HP.MapCanvas(WorldMapFrame)
  if not t or not canvas or not WorldMapFrame:IsShown() or HP.db.gatherShowNodes==false or HP.db.gatherWorldNodes==false then return end
  local map=HP.Call(WorldMapFrame.GetMapID,WorldMapFrame);if not map then return end
  local f=worlds[canvas];if not f then f=CreateFrame('Frame',nil,canvas);worlds[canvas]=f;f:SetAllPoints(canvas);f:SetFrameLevel(canvas:GetFrameLevel()+22);f:EnableMouse(false) end
- f:Show();HP.DrawGatherCircles(f,map,t,canvas:GetWidth(),canvas:GetHeight())
+ HP.gatherWorldNodesFrame=f;f:Show();HP.DrawGatherCircles(f,map,t,canvas:GetWidth(),canvas:GetHeight())
 end
 local create=HP.CreateUI
 function HP.CreateUI()

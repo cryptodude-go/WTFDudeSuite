@@ -1,10 +1,10 @@
 # WTF! DUDE SUITE
 
-**Version 1.8 · World of Warcraft: Forever · Interface 16001**
+**Version 1.9 · World of Warcraft: Forever · Interface 16001**
 
 A modular companion for leveling, questing, professions, gathering, navigation and group play. One addon folder contains the complete suite, with an overall switch and separate module switches in Settings.
 
-This is a cumulative summary of features added from the first 0.x releases through version 1.8. It describes the current feature set and omits repair notes.
+This is a cumulative summary of features added from the first 0.x releases through version 1.9. It describes the current feature set and omits repair notes.
 
 ## Leveling and quest guides
 
@@ -16,6 +16,7 @@ This is a cumulative summary of features added from the first 0.x releases throu
 - Nearby objective batching and route selection before returning for quest turn-ins.
 - Upcoming-step previews, objective hover details, clickable destinations and optional guide explanations.
 - Completed-quest reconciliation, guide resumption, previous/next controls, skipping and pause.
+- Accepted-quest counter beside the world-map quest list, with live quest-log capacity and near-full/full colors.
 - Route preferences for hearthstones, optional death skips, elite/dungeon quests, trainers, flight paths and vendors.
 - Nearby objectives, persistent instructions and quest-log cleanup suggestions.
 - Guide import/export and a report-text creator for describing guide problems.
@@ -44,6 +45,7 @@ This is a cumulative summary of features added from the first 0.x releases throu
 - An additional 277 fishing pool reference positions across 17 zones.
 - Simultaneous circles for learned Herbalism, Mining and Fishing, including all resource tiers for the selected professions.
 - Separate switches for world-map circles, minimap circles, herbs, ore, fishing, reference data and unlearned professions.
+- All-profession node circles on the selected world-map zone by default, including zones away from your current location. Minimap profession filters remain independently configurable.
 - Resource circles remain available while the leveling guide is closed or paused.
 - Lime herb circles, gold ore circles, blue fishing circles and green personal harvest history.
 - Click-to-waypoint navigation from resource circles.
@@ -198,6 +200,12 @@ Use `/wtf way` when another installed addon owns the shorter `/way` command.
 Open the installed `Interface/AddOns/WTFDudeSuite` directory as the folder workspace in Visual Studio. Use that folder as the repository root so `WTFDudeSuite.toc`, `README.md` and `Modules` are directly at the root.
 
 Editing Lua files in this folder edits the installed addon. Use `/reload` to load saved code changes. Restart WoW after adding files or changing the file layout. The included `.gitignore` excludes Visual Studio local metadata. GitHub releases should package the repository inside one top-level `WTFDudeSuite` directory.
+
+## Map quest counter and zone nodes
+
+The world map shows **Quests: current / maximum** beside its quest list. It updates when quests are accepted, turned in or abandoned. The maximum comes from the client's standard-quest capacity API, with the Forever limit of 40 used as a fallback. Zone/category headers are excluded. Toggle it in **Suite options → Quest counter on the world map**.
+
+In **Gathering**, enable **Show circles on the world map**. **Show all professions on the world map** is enabled by default and displays the known herb, ore and fishing positions for the zone selected on the map. Individual resource-category and reference-data switches still apply. The circles use the zoomable map canvas and refresh when the map opens or its selected zone changes.
 
 ## Version notifications and GitHub
 

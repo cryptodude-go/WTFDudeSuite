@@ -14,10 +14,10 @@ function HP.ArrivalEstimate(w,distance)
 end
 function HP.MapCanvas(frame)
     if not frame then return end
-    if frame.ScrollContainer and frame.ScrollContainer.Child then return frame.ScrollContainer.Child end
     local canvas=type(frame.GetCanvas)=="function" and HP.Call(frame.GetCanvas,frame)
     if type(canvas)=="table" or type(canvas)=="userdata" then return canvas end
-    return frame.ScrollContainer and frame.ScrollContainer.Child
+    local scroll=frame.ScrollContainer
+    if type(scroll)=="table" or type(scroll)=="userdata" then return scroll.Child end
 end
 function HP.NavigationInstruction(fallback)
     if HP.manualWaypoint then return fallback end

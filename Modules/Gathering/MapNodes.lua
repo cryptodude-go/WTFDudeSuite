@@ -4,30 +4,21 @@ local cache = {}
 local skills = { Herbalism = 182, Mining = 186, Fishing = 356 }
 local flags = { Herbalism = "gatherHerbNodes", Mining = "gatherMineNodes", Fishing = "gatherFishNodes" }
 
-function HP.HasGatherDisplay()
+function HP.HasGatherDisplay(allProfessions)
     if not HP.db or HP.db.gatherShowNodes == false then return false end
     local professions = HP.ProfessionSkills()
     for kind, skillID in pairs(skills) do
-        if HP.db[flags[kind]] ~= false and (HP.db.gatherAllProfessions or professions[skillID]) then return true end
+        if HP.db[flags[kind]] ~= false and (allProfessions or HP.db.gatherAllProfessions or professions[skillID]) then return true end
     end
     return false
 end
 
-function HP.HasGatherDisplay()
-    if not HP.db or HP.db.gatherShowNodes == false then return false end
-    local professions = HP.ProfessionSkills()
-    for kind, skillID in pairs(skills) do
-        if HP.db[flags[kind]] ~= false and (HP.db.gatherAllProfessions or professions[skillID]) then return true end
-    end
-    return false
-end
-
-function HP.GatherDisplayNodes(map)
+function HP.GatherDisplayNodes(map, allProfessions)
     if not map or not HP.db then return {} end
     local professions = HP.ProfessionSkills()
     local enabled, mask = {}, {}
     for kind, skillID in pairs(skills) do
-        if HP.db[flags[kind]] ~= false and (HP.db.gatherAllProfessions or professions[skillID]) then
+        if HP.db[flags[kind]] ~= false and (allProfessions or HP.db.gatherAllProfessions or professions[skillID]) then
             enabled[kind] = true
             mask[#mask + 1] = kind
         end
@@ -74,6 +65,7 @@ HP.Defer(30, "gathering-map-settings", function()
         rows[#rows + 1] = UI.HeaderRow(canvas, "Resource circles", width)
         for _, option in ipairs({
             { "Show circles on the world map", "gatherWorldNodes", true },
+            { "Show all professions on the world map", "gatherWorldAllProfessions", true },
             { "Show circles on the minimap", "gatherMinimapNodes", true },
             { "Show herbs", "gatherHerbNodes", true },
             { "Show ore veins", "gatherMineNodes", true },
@@ -99,7 +91,7 @@ HP.Defer(30, "gathering-map-settings", function()
             }, width)
         end
         rows[#rows + 1] = UI.InfoRow(canvas,
-            "Circles work while questing, with the guide closed or paused. All resource tiers are shown for your selected professions. Green marks your own harvests, lime marks herbs, gold marks ore, and blue marks fishing pools. Click a circle to navigate. Reference locations may differ on changed Forever maps.",
+            "Circles work while questing, with the guide closed or paused. The world map can show all professions in the selected zone. Minimap filters follow your learned professions unless enabled separately. Green marks your own harvests, lime marks herbs, gold marks ore, and blue marks fishing pools. Click a circle to navigate. Reference locations may differ on changed Forever maps.",
             width)
         rows[#rows + 1] = UI.ButtonRow(canvas, C, {
             label = "Fishing 1–300", button = "Open guide",
@@ -108,3 +100,22 @@ HP.Defer(30, "gathering-map-settings", function()
         return rows
     end
 end)
+
+local attachedMap
+function HP.AttachGatherWorldMap()
+    local map = WorldMapFrame
+    if not map or attachedMap == map then return end
+    attachedMap = map
+    local function refresh()
+        HP.UpdateGatherWorldNodes()
+        if HP.Performance then HP.Performance:Reconcile() end
+    end
+    map:HookScript("OnShow", refresh)
+    map:HookScript("OnHide", refresh)
+    map:HookScript("OnSizeChanged", refresh)
+    if type(hooksecurefunc) == "function" and type(map.OnMapChanged) == "function" then
+        hooksecurefunc(map, "OnMapChanged", refresh)
+    end
+end
+D:On("PLAYER_LOGIN", function() HP.AttachGatherWorldMap() end)
+D:On("ADDON_LOADED", function() HP.AttachGatherWorldMap() end)
